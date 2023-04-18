@@ -2,26 +2,45 @@
 <html lang="nl, en">
 <head>
     <meta charset="UTF-8">
-    <title>TEST Landing Page Buildr.</title>
+    <title>Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- TEST Bootstrap file toegevoegd aan project. -->
-    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap/bootstrap-reboot.min.css">
+    <!-- Bootstrap links (2) -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
+    <!--    Link naar css file-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image" href="assets/buildr_logo_oud.png">
 
-    <!-- TEST Bootstrap file toegevoegd aan project. -->
 
 </head>
 <body>
 
-<!-- TEST - Navbar uit bootstrap catalogus (component) -->
-<!-- Image and text -->
+<!-- Navigatiebalk (Logo links uitgelijnd) -->
 
-<nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="../assets/buildr_logo_oud.png" width="60" height="60" class="d-inline-block align-center" alt="Buildr Logo">
-        Buildr.
-    </a>
+<nav class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <a href="#"><img id="nav_logo" src="assets/buildr_logofull_black.png" alt="Logo Buildr."> </a>
+        </div>
+        <div class="col-md-auto justify-content-center align-self-center">
+            <a href="#">Pro</a>
+        </div>
+        <div class="col-md-auto justify-content-center align-self-center">
+            <a href="#">Over ons</a>
+        </div>
+        <div class="col-md-auto justify-content-center align-self-center">
+            <a href="#">Blog</a>
+        </div>
+        <div class="col-md-auto justify-content-center align-self-center">
+            <a href="#">Ondersteuning</a>
+        </div>
+        <div class="col-md-auto justify-content-center align-self-center">
+            <a href="#">Contact</a>
+        </div>
 
+    </div>
 </nav>
+
+
 </body>
 </html>
