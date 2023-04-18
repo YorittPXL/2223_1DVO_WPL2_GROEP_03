@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Dit is een test push">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Refactor index file voor netlify">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
       <workItem from="1679951629739" duration="569000" />
       <workItem from="1679952223016" duration="110000" />
       <workItem from="1681743756750" duration="1298000" />
+      <workItem from="1681801577140" duration="2531000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -76,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1681744072289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Netflify index.html push">
+      <created>1681801610796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681801610796</updated>
+    </task>
+    <task id="LOCAL-00005" summary="index footer / navbar push">
+      <created>1681801800652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681801800652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactor index file voor netlify">
+      <created>1681801880618</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681801880618</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +118,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dit is een test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dit is een test push" />
+    <MESSAGE value="Netflify index.html push" />
+    <MESSAGE value="index footer / navbar push" />
+    <MESSAGE value="Refactor index file voor netlify" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor index file voor netlify" />
   </component>
 </project>
