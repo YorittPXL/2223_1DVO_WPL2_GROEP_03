@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Bootstrap files added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Mappen aangemaakt">
+      <change beforePath="$PROJECT_DIR$/landing_page/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -33,17 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yorit/Documents/PXL/2022-2023 1DVO/Werkplekleren 2/GitHub/2223_1DVO_WPL2_GROEP_03&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/yorit/Documents/PXL/2022-2023 1DVO/Werkplekleren 2/GitHub/2223_1DVO_WPL2_GROEP_03",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03\bootstrap" />
+      <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03\landing_page" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +66,7 @@
       <workItem from="1679951629739" duration="569000" />
       <workItem from="1679952223016" duration="110000" />
       <workItem from="1681743756750" duration="1298000" />
-      <workItem from="1681801577140" duration="4119000" />
+      <workItem from="1681801577140" duration="4494000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -106,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681805967963</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mappen aangemaakt">
+      <created>1681811008657</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681811008657</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Mappen aangemaakt">
+      <created>1681811019087</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681811019087</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +154,7 @@
     <MESSAGE value="index footer / navbar push" />
     <MESSAGE value="Refactor index file voor netlify" />
     <MESSAGE value="Bootstrap files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap files added" />
+    <MESSAGE value="Mappen aangemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mappen aangemaakt" />
   </component>
 </project>
