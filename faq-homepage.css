@@ -8,8 +8,13 @@ main img{
     width: 35px;
 }
 main p{
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: bold;
 }
 .vragen{
     border-bottom: lightgray 1px solid;
+}
+div button{
+    background: none;
+    border: none;
 }
