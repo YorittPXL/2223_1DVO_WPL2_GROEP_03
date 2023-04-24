@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Initial push">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Navigatiebar (niet responsive)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/buildr_logo_oud.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/buildr_logofull_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plus-button.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -36,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/yorit/Documents/PXL/2022-2023 1DVO/Werkplekleren 2/GitHub/2223_1DVO_WPL2_GROEP_03",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yorit/Documents/PXL/2022-2023 1DVO/Werkplekleren 2/GitHub/2223_1DVO_WPL2_GROEP_03&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03" />
@@ -68,7 +70,9 @@
       <workItem from="1679951629739" duration="569000" />
       <workItem from="1679952223016" duration="110000" />
       <workItem from="1681743756750" duration="1298000" />
-      <workItem from="1681801577140" duration="18308000" />
+      <workItem from="1681801577140" duration="18550000" />
+      <workItem from="1682326207222" duration="6556000" />
+      <workItem from="1682335767211" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -140,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681811186721</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Navigatiebar (niet responsive)">
+      <created>1681829762663</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681829762663</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +176,7 @@
     <MESSAGE value="Bootstrap files added" />
     <MESSAGE value="Mappen aangemaakt" />
     <MESSAGE value="Initial push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
+    <MESSAGE value="Navigatiebar (niet responsive)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigatiebar (niet responsive)" />
   </component>
 </project>
