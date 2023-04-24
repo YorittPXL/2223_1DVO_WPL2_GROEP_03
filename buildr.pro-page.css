@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+.container{
+    padding-top: 8rem;
+}
+.landing p{
+    font-size: larger;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.landing img{
+    width: 450px;
+    height: auto;
+    margin: 2rem 0;
+    padding: 10px 0;
+}
+button{
+    color: white;
+    border: 1px solid black;
+    background: black;
+    width: 8rem;
+    padding: 10px 0;
+    border-radius: 5rem;
+}

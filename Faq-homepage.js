@@ -12,3 +12,4 @@
 //         }
 //     });
 // }
+$('.collapse').collapse()
