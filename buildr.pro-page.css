@@ -5,7 +5,7 @@
     font-family: Lato, sans-serif;
 }
 .container{
-    padding-top: 8rem;
+    padding-top: 6rem;
 }
 .landing p{
     font-size: larger;
@@ -25,4 +25,12 @@ button{
     width: 8rem;
     padding: 10px 0;
     border-radius: 5rem;
+}
+.logo img{
+    width: 400px;
+    height: auto;
+}
+.pro-uitleg{
+    background: #2B2A37 ;
+    color: white;
 }
