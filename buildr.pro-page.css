@@ -2,22 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Lato, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
-.container{
-    padding-top: 6rem;
-}
-.landing p{
+
+/* UTILITY
+
+#053DFF BUILDR BLUE
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+
+#F9CB33 BUILDR BLUE
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+
+
+*/
+
+.pro-hero__header {
     font-size: larger;
     padding: 10px 0;
     font-weight: bold;
 }
-.landing img{
+
+.pro-hero__img {
     width: 450px;
     height: auto;
     margin: 2rem 0;
     padding: 10px 0;
 }
+
+.pro-hero__logo {
+    width: 100%;
+    height: auto;
+}
+
 button{
     color: white;
     border: 1px solid black;
@@ -26,11 +44,13 @@ button{
     padding: 10px 0;
     border-radius: 5rem;
 }
-.logo img{
-    width: 400px;
-    height: auto;
-}
-.pro-uitleg{
+
+.pro-uitleg {
     background: #2B2A37 ;
     color: white;
+}
+
+.pro-uitleg__logo img{
+    width: 400px;
+    height: auto;
 }
