@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Navigatiebar (niet responsive)">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Assets map aangevuld">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buildr_logo_oud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/buildr_logofull_black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/plus-button.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -72,7 +69,8 @@
       <workItem from="1681743756750" duration="1298000" />
       <workItem from="1681801577140" duration="18550000" />
       <workItem from="1682326207222" duration="6556000" />
-      <workItem from="1682335767211" duration="3542000" />
+      <workItem from="1682335767211" duration="7949000" />
+      <workItem from="1682424287053" duration="7696000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681829762663</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Assets map aangevuld">
+      <created>1682345190690</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682345190690</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +182,7 @@
     <MESSAGE value="Mappen aangemaakt" />
     <MESSAGE value="Initial push" />
     <MESSAGE value="Navigatiebar (niet responsive)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigatiebar (niet responsive)" />
+    <MESSAGE value="Assets map aangevuld" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assets map aangevuld" />
   </component>
 </project>
