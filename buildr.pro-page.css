@@ -19,9 +19,8 @@
 */
 
 .pro-hero__header {
-    font-size: larger;
-    padding: 10px 0;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .pro-hero__img {
