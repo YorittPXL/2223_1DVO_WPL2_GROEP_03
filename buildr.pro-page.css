@@ -11,7 +11,7 @@
 #698AFF BUILDR BLUE 75%
 #B4C4FF BUILDR BLUE 50%
 
-#F9CB33 BUILDR BLUE
+#F9CB33 BUILDR YEllOW
 #698AFF BUILDR BLUE 75%
 #B4C4FF BUILDR BLUE 50%
 
@@ -24,24 +24,26 @@
 }
 
 .pro-hero__img {
-    width: 450px;
+    max-width: 100%;
     height: auto;
     margin: 2rem 0;
     padding: 10px 0;
 }
 
 .pro-hero__logo {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
-button{
-    color: white;
-    border: 1px solid black;
-    background: black;
+button {
+    color: #2B2A37;
+    border: none;
+    background-color: #F9CB33;
     width: 8rem;
     padding: 10px 0;
     border-radius: 5rem;
+    font-weight: 600;
+    box-shadow: 3px 3px 6px rgba(42, 44, 55, 0.1);
 }
 
 .pro-uitleg {
@@ -49,7 +51,12 @@ button{
     color: white;
 }
 
-.pro-uitleg__logo img{
+.pro-uitleg__img {
     width: 400px;
+    height: auto;
+}
+
+.pro-uitleg__logo {
+    width: 100%;
     height: auto;
 }
