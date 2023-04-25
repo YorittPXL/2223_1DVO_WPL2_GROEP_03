@@ -5,29 +5,41 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/* UTILITY
+/*  --- UTILITY ---
 
     #053DFF BUILDR BLUE
     #698AFF BUILDR BLUE 75%
     #B4C4FF BUILDR BLUE 50%
-
+--
     #F9CB33 BUILDR YEllOW
     #698AFF BUILDR BLUE 75%
     #B4C4FF BUILDR BLUE 50%
-
+--
     #F3F3F3 SOFT WHITE
+    #707070 MEDIUM GREY
     #707070 DARK GREY
     #2B2A37 FADED BLACK
 
 */
 
-.faq-header__subheader {
+.bshadow {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0,1);
+}
+
+/*
+    --- FAQ ---
+*/
+
+.faq-header__subheader,
+.tutorials__subheader {
     font-size: 1.2rem;
     font-weight: 600;
     color: #707070;
 }
 
-.faq-header__header, .ondersteuning-header__header {
+.faq-header__header,
+.ondersteuning-header__header,
+.tutorials__header {
     font-size: 2rem;
     font-weight: 700;
     color: #2B2A37;
@@ -62,8 +74,9 @@ button.accordion-button:focus{
     box-shadow: none;
 }
 
-/* ONDERSTEUNING */
-/* Header Text zie FAQ */
+/*
+    --- ONDERSTEUNING ---
+*/
 
 .ondersteuning {
     margin-top: 15%;
@@ -81,11 +94,6 @@ button.accordion-button:focus{
     color: #f4f4f9;
 }
 
-/* #053DFF BUILDR BLUE
-#698AFF BUILDR BLUE 75%
-#B4C4FF BUILDR BLUE 50%
-*/
-
 .ondersteuning__icon {
     font-size: 3rem;
 }
@@ -95,3 +103,40 @@ button.accordion-button:focus{
     margin: 0;
 }
 
+/*
+    --- TUTORIALS
+*/
+
+.tutorials__videoheader {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.tutorials__textbox {
+    border-top:lightgray 1px solid;
+}
+
+.tutorials__textbox:first-of-type {
+    border-top: none;
+}
+
+.tutorials__textbox p {
+    font-weight: 400;
+    font-size: .9rem;
+    color: #707070;
+}
+
+iframe {
+    border-radius: 8px;
+}
+
+.tut__video {
+    width: 400px;
+    height: 220px;
+}
+
+.tut__videoblock {
+    background-color: #f4f4f9;
+    border-radius: 16px;
+    padding: 3rem;
+}
