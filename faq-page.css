@@ -5,19 +5,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
 /* UTILITY
 
-#053DFF BUILDR BLUE
-#698AFF BUILDR BLUE 75%
-#B4C4FF BUILDR BLUE 50%
+    #053DFF BUILDR BLUE
+    #698AFF BUILDR BLUE 75%
+    #B4C4FF BUILDR BLUE 50%
 
-#F9CB33 BUILDR YEllOW
-#698AFF BUILDR BLUE 75%
-#B4C4FF BUILDR BLUE 50%
+    #F9CB33 BUILDR YEllOW
+    #698AFF BUILDR BLUE 75%
+    #B4C4FF BUILDR BLUE 50%
 
-#707070 DARK GREY
-#2B2A37 FADED BLACK
+    #F3F3F3 SOFT WHITE
+    #707070 DARK GREY
+    #2B2A37 FADED BLACK
 
 */
 
@@ -27,8 +27,8 @@
     color: #707070;
 }
 
-.faq-header__header {
-    font-size: 2.25rem;
+.faq-header__header, .ondersteuning-header__header {
+    font-size: 2rem;
     font-weight: 700;
     color: #2B2A37;
 }
@@ -50,12 +50,48 @@
     color: #707070;
 }
 
-/* BUTTONS VAN FAQ MET PLUS SYMBOOL*/
+/* BUTTONS VAN FAQ MET PLUS SYMBOOL */
 /* NOT COLLAPSED */
+
 .accordion-button:not(.collapsed) {
     background-color: transparent;
 }
 /* BORDER */
+
 button.accordion-button:focus{
     box-shadow: none;
 }
+
+/* ONDERSTEUNING */
+/* Header Text zie FAQ */
+
+.ondersteuning {
+    margin-top: 15%;
+}
+
+.ondersteuning__card {
+    background-color: #698AFF;
+    text-decoration: none;
+    color: #f4f4f9;
+}
+
+.ondersteuning__card:hover {
+    background-color: #B4C4FF;
+    text-decoration: none;
+    color: #f4f4f9;
+}
+
+/* #053DFF BUILDR BLUE
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+*/
+
+.ondersteuning__icon {
+    font-size: 3rem;
+}
+
+.ondersteuning__cardtext {
+    font-weight: 500;
+    margin: 0;
+}
+

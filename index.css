@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -25,5 +25,8 @@ nav a:hover{
 
 .buildr-navbar__logo {
     height: 2rem;
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
+
+/* CSS VOOR GEDEELTE FAQ */
+/* AAN TE VULLEN */
