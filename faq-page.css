@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* UTILITY
+
+#053DFF BUILDR BLUE
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+
+#F9CB33 BUILDR YEllOW
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+
+#707070 DARK GREY
+#2B2A37 FADED BLACK
+
+*/
+
+.faq-header__subheader {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #707070;
+}
+
+.faq-header__header {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #2B2A37;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("assets/black/plus-button.png");
+}
+
+.accordion-button::after {
+    background-image: url("assets/black/plus-button.png");
+}
+
+.faq-vraag {
+    font-weight: 600;
+}
+
+.faq-text {
+    font-weight: .9rem;
+    color: #707070;
+}
+
+/* BUTTONS VAN FAQ MET PLUS SYMBOOL*/
+/* NOT COLLAPSED */
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+}
+/* BORDER */
+button.accordion-button:focus{
+    box-shadow: none;
+}

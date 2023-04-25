@@ -2,27 +2,29 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
-nav{
-    background-color: #f3f3f3;
-    color: #303030;
-    font-size: 135%;
-    font-weight: 700;
+nav {
+    background-color: #053DFF;
     text-underline: none;
-    text-decoration: none;
 }
 
-.col-md-auto a{
+nav a {
     text-decoration: none;
-    color: #303030;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
 }
 
-.row{
-    margin: 0 1rem;
+nav a:hover{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.row {
     justify-content: space-evenly;
-    padding:1rem;
 }
 
 #nav_logo{
