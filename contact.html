@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buildr. - Contact</title>
+  <link rel="icon" type="image/x-icon" href="assets/buildr/buildr_logoicon_white.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="bootstrap/bootstrap.bundle.min.js"></script>
+      <!--
+      <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+      -->
+</head>
+<body>
+
+<!-- Navigatiebalk (Logo links uitgelijnd) -->
+
+  <nav class="container-fluid buildr-navbar">
+    <div class="row justify-content-evenly">
+      <div class="col-md-6">
+        <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="#">Pro</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="#">Over ons</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="#">Blog</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="ondersteuning.html">Ondersteuning</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- FAQ HEADER -->
+
+  <div class="container contact-header mt-5 justify-content-center">
+    <h1 class="row justify-content-center contact-header__heading">Heb je nog een vraag?</h1>
+    <h2 class="row justify-content-center contact__subheading">Contacteer ons.</h2>
+  </div>
+
+<!-- Contact Form -->
+
+<div class="container col-12 col-lg-8">
+  <div class="row mx-auto justify-content-center">
+    <div class="col-12 col-lg-4 p-2 mx-auto my-4 contact-adres">
+      <h2 class="adres__heading">Contactgegevens</h2>
+      <ul class="adres__list" >
+        <li>
+          <p class="adres__listitem">Hogeschool PXL</p>
+        </li>
+        <li>
+          <p class="adres__listitem">Elfde Liniestraat 24</p>
+        </li>
+        <li>
+          <p class="adres__listitem">Adres</p>
+        </li>
+        <li>
+          <p class="adres__listitem">Adres</p>
+        </li>
+      </ul>
+    </div>
+    <div class="col-12 col-lg-6 p-2 mx-auto my-4 contact-adres">
+      <h2 class="adres__heading">Stuur een bericht</h2>
+      <form class="contactformulier">
+        <div class="row mb-2">
+          <div class="col">
+            <input type="text" id="voornaam" class="form-control" placeholder="Voornaam">
+            <label for="voornaam"></label>
+          </div>
+          <div class="col">
+            <input type="text" id="achternaam" class="form-control" placeholder="Achternaam">
+            <label for="achternaam"></label>
+          </div>
+        </div>
+        <div class="mb-4">
+          <input type="text" id="onderwerp" class="form-control" placeholder="Onderwerp">
+          <label for="onderwerp"></label>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="boodschap" rows="5" placeholder="Schrijf iets moois,.."></textarea>
+          <label for="boodschap"></label>
+        </div>
+        <button type="submit" class="formulier__button bshadow">Submit</button>
+      </form>
+    </div>
+    </div>
+  </div>
+
+<!-- MAP ONDERAAN -->
+
+<div class="container mt-5 contact-map">
+  <div class="row mx-auto">
+    <div>
+      <div class="col-12 col-md-10 mb-3 mx-auto" id="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.2578150157956!2d5.345573276242648!3d50.93744495218057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c12177528ced33%3A0x27d80a1d25c8505!2sPXL%20University%20of%20Applied%20Sciences%20and%20Arts!5e0!3m2!1sen!2sbe!4v1682466852046!5m2!1sen!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
