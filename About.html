@@ -10,60 +10,145 @@
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about+footer.css">
+    <link rel="stylesheet" href="style.css">
     <script defer src="bootstrap/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-<footer class="fixed-bottom">
-    <div class="container mx-auto footer__inhoud py-3">
-        <div id="footer__top" class="row">
-            <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
-                <img id="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr.">
+<!-- Navigatiebalk (Logo links uitgelijnd) -->
+
+    <nav class="container-fluid buildr-navbar">
+        <div class="row justify-content-evenly">
+            <div class="col-md-6">
+                <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
             </div>
-            <div class="col-md-6  text-end align-self-center">
-                <p><a class="footer__download_button bshadow" href="#"><img
-                        src="assets/black/Icon%20awesome-google-play.png"
-                        alt="Playstore Icon">Download in de play store</a></p>
-                <p><a class="footer__download_button bshadow" href="#"><img
-                        src="assets/black/Icon%20awesome-app-store-ios.png"
-                        alt="Appstore Icon">Download in de app store</a></p>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="#">Pro</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="#">Over ons</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="#">Blog</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="ondersteuning.html">Ondersteuning</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="contact.html">Contact</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <hr class="footer__breakline my-3 mx-auto py-0">
-            </div>
-        </div>
-        <div class="row">
+    </nav>
 
-            <div id="footer__contactgegevens" class="col-md-3">
-                <h6>Contactgegevens</h6>
-                <p>Hogeschool PXL</p>
-                <p>Elfde-liniestraat 24</p>
-                <p>B-3500 HASSELT</p>
-                <p>GSM: 011 77 55 55</p>
-            </div>
-            <div id="footer__contact_knop"
-                 class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
-                <a class="footer__button_contacteer bshadow" href="#">Contacteer ons!</a>
-            </div>
+<!-- ABOUT HEADER -->
 
-            <div class="col-md-3 text-end">
-                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png"
-                                 alt="Facebook logo"></a>
-                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png"
-                                 alt="LinkedIn logo"></a>
-                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png"
-                                 alt="Instagram logo"></a>
-                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png"
-                                 alt="Twitter logo"></a>
-            </div>
+<!--
+
+    <div class="container contact-header mt-5 justify-content-center">
+        <h1 class="row justify-content-center contact-header__heading">Over ons.</h1>
+        <h2 class="row justify-content-center contact__subheading">Contacteer ons.</h2>
+    </div>
+
+    -->
+
+<!-- ABOUT INHOUD -->
+
+<div class="container-lg about-header mx-auto">
+    <div class="row justify-content-center my-5">
+        <div class="col-8 col-md-5 my-3">
+            <img class="about-header__img" src="assets/buildr/buildr_logofull_blackyellow.png" alt="Buildr Logo Black and Yellow"></div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-xl-8">
+            <h3 class="about-header__subheading">Buildr. is een matchmaker. Onze app helpt je je droomjob te vinden door je te matchen met werkgevers in de sectoren Bouw, Metaal en Logistiek.</h3>
+            <h3 class="about-header__subheading my-2">Ben je net gestart, of al heb je al ervaring? Buildr kan je helpen om de job te vinden die bij jou past.</h3>
         </div>
     </div>
-</footer>
+</div>
+
+<div class="container about d-flex flex-row p-3 bg-light rounded-4 mt-4">
+    <div class="row">
+        <div class="col">
+            <h5 class="about__subheading">Waarom Buildr?</h5>
+            <p class="about__bodytext">Onze app is ontworpen om werkzoekenden en werkgevers met elkaar te matchen op basis van hun vaardigheden, ervaring en voorkeuren. Hieronder leggen we uit hoe.</p>
+            <h5 class="about__subheading">Matchmakers.</h5>
+            <p class="about__bodytext">Ga een gesprek aan met werknemer of werkgever via onze chatfunctie en ontmoet elkaar face-to-face of via een videogesprek.</p>
+            <p class="about__bodytext">Buildr. geeft persoonlijk advies om kandidaten te helpen bij het voorbereiden van een intakegesprek.</p>
+            <h5 class="about__subheading">Waarom Buildr?</h5>
+            <p class="about__bodytext">Onze app is ontworpen om werkzoekenden en werkgevers met elkaar te matchen op basis van hun vaardigheden, ervaring en voorkeuren. Hieronder leggen we uit hoe.</p>
+            <img class="about__img" src="#" alt="afbeelding">
+            <h5 class="about__subheading">Waarom Buildr?</h5>
+            <p class="about__bodytext">Onze app is ontworpen om werkzoekenden en werkgevers met elkaar te matchen op basis van hun vaardigheden, ervaring en voorkeuren. Hieronder leggen we uit hoe.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h5 class="about__subheading">Overal bereikbaar.</h5>
+            <p>Thuis, op de trein of op vakantie? Download snel onze app en vind je match waar en wanneer je maar wil.</p>
+            <p>Tekst2.2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, sit!</p>
+            <img class="about__img" src="#" alt="afbeelding">
+            <h5 class="about__subheading">Brede ondersteuning.</h5>
+            <p>We bieden ondersteuning bij elke stap van het sollicitatieproces. Gebruikers kunnen rekenen op deskundig advies en begeleiding van het Buildr. team, dat beschikbaar is om al uw vragen te beantwoorden.</p>
+            <h5 class="about__subheading">Inclusiviteit</h5>
+            <p>We respecteren  de privacy van onze gebruikers.
+                Daarom maken we persoonlijke gegevens anoniem.
+                Je kan pas na een ‘Match’ je persoonlijke gegevens (laten) raadplegen. Jij bepaalt.</p>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- FOOTER -->
+
+    <footer>
+        <div class="container mx-auto footer__inhoud py-3 mt-5">
+            <div id="footer__top" class="row">
+                <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
+                    <img id="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr.">
+                </div>
+                <div class="col-md-6  text-end align-self-center">
+                    <p><a class="footer__download_button bshadow" href="#"><img
+                            src="assets/black/Icon%20awesome-google-play.png"
+                            alt="Playstore Icon">Download in de play store</a></p>
+                    <p><a class="footer__download_button bshadow" href="#"><img
+                            src="assets/black/Icon%20awesome-app-store-ios.png"
+                            alt="Appstore Icon">Download in de app store</a></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr class="footer__breakline my-3 mx-auto py-0">
+                </div>
+            </div>
+            <div class="row">
+
+                <div id="footer__contactgegevens" class="col-md-3">
+                    <h6>Contactgegevens</h6>
+                    <p>Hogeschool PXL</p>
+                    <p>Elfde-liniestraat 24</p>
+                    <p>B-3500 HASSELT</p>
+                    <p>GSM: 011 77 55 55</p>
+                </div>
+                <div id="footer__contact_knop"
+                     class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
+                    <a class="footer__button_contacteer bshadow" href="#">Contacteer ons!</a>
+                </div>
+
+                <div class="col-md-3 text-end">
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png"
+                                     alt="Facebook logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png"
+                                     alt="LinkedIn logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png"
+                                     alt="Instagram logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png"
+                                     alt="Twitter logo"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
