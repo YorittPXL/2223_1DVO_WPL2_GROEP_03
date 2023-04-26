@@ -60,7 +60,7 @@ footer{
     width: 12em;
 }
 
-p {
+footer p {
     margin: 0;
 }
 
@@ -69,10 +69,7 @@ p {
     align-content: center;
     background-color: black;
     color: white;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
     border-radius: 2rem;
@@ -86,7 +83,7 @@ p {
 
 }
 
-hr {
+footer hr {
     width: 104%;
     height: 1px;
     background-color: black;
@@ -115,10 +112,7 @@ hr {
     font-size: 110%;
     background-color: black;
     color: white;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding: 0.5rem 5rem;
     border-radius: 2rem;
     width: auto;
     text-decoration: none;
