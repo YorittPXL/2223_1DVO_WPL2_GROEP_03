@@ -178,8 +178,8 @@ iframe {
 }
 
 .tut__video {
-    width: 400px;
-    height: 220px;
+    width: 100%;
+    height: auto;
 }
 
 .tut__videoblock {
@@ -236,17 +236,122 @@ iframe {
     height: 400px; /* hoogte van de kaart-container */
 }
 
-iframe {
+.contact-map iframe {
     width: 100%;
     height: 60%;
 }
+
+
+
+/* Footer */
+
+footer{
+    background-color: #053DFF;
+}
+
+#footer__logo{
+    height: 2em;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.footer__download_button {
+    font-size: .9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-content: center;
+    background-color: #f4f4f9;
+    color: #343a40;
+    padding: 0.5rem 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.footer__download_button:hover {
+    color: #707070;
+    padding: 0.5rem 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    text-decoration: none;
+}
+
+.footer__download_button img {
+    height: 1.4rem;
+    margin-right: .75rem;
+}
+
+.footer__breakline {
+    width: 100%;
+    height: 1px;
+    color: #f4f4f9;
+}
+
+#footer__contactgegevens p{
+    margin: 0;
+}
+
+#footer__contactgegevens h6{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f4f4f9;
+}
+
+#footer__contactgegevens p {
+    color: #f4f4f9;
+    font-size: 75%;
+    font-weight: 500;
+}
+
+.footer__button_contacteer{
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: #F3F3F3;
+    color: #2B2A37;
+    padding: 0.5rem 2.5rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.footer__icon{
+    width: 2rem;
+    margin: 1px;
+}
+
 
 
 /*
     --- MEDIA QUERIES ---
 */
 
+
+@media (max-width: 760px) {
+    /*FOOTER*/
+    .footer__inhoud{
+        text-align-last: center;
+    }
+    .text-end{
+        text-align: center;
+    }
+    .footer__icon{
+        margin-top: 1rem;
+    }
+    .footer__download_button{
+        margin-top: 8px;
+    }
+    #footer__logo{
+        margin-bottom: 1rem;
+    }
+    #footer__top{
+        justify-content: center;
+    }
+    /* FOOTER EINDE*/
+}
+
+
 /* MediaQuery voor border bij contactformulier */
+
 @media screen and (max-width: 992px) {
 .contact-adres:first-of-type {
     border-right: none;
