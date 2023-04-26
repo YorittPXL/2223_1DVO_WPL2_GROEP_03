@@ -12,10 +12,10 @@
     #B4C4FF BUILDR BLUE 50%
 --
     #F9CB33 BUILDR YEllOW
-    #698AFF BUILDR BLUE 75%
-    #B4C4FF BUILDR BLUE 50%
+    #FADA70 - Warm Yellow Light 75
 --
     #F3F3F3 SOFT WHITE
+    #CCCCCC LIGHT GREY
     #707070 MEDIUM GREY
     #707070 DARK GREY
     #2B2A37 FADED BLACK
@@ -23,23 +23,25 @@
 */
 
 .bshadow {
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0,1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
 /*
     --- FAQ ---
 */
 
-.faq-header__subheader,
-.tutorials__subheader {
+.faq-header__subheading,
+.tutorials__subheading,
+.contact__subheading {
     font-size: 1.2rem;
     font-weight: 600;
     color: #707070;
 }
 
-.faq-header__header,
-.ondersteuning-header__header,
-.tutorials__header {
+.faq-header__heading,
+.ondersteuning-header__heading,
+.tutorials__heading,
+.contact-header__heading {
     font-size: 2rem;
     font-weight: 700;
     color: #2B2A37;
@@ -58,7 +60,7 @@
 }
 
 .faq-text {
-    font-weight: .9rem;
+    font-size: 0.9rem;
     color: #707070;
 }
 
@@ -139,4 +141,69 @@ iframe {
     background-color: #f4f4f9;
     border-radius: 16px;
     padding: 3rem;
+}
+
+/*
+    --- CONTACT ---
+*/
+
+.contact-adres:first-of-type {
+    border-right: 1px solid #CCCCCC;
+}
+
+.adres__heading {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2B2A37;
+}
+
+.adres__list {
+    list-style-type: none;
+    text-decoration: none;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.adres__listitem {
+    margin-bottom: .2rem;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.formulier__button {
+    text-align: center;
+    background-color: #F9CB33;
+    border: none;
+    border-radius: 999rem;
+    padding: .4rem 1.2rem;
+    font-weight: 600;
+}
+
+.formulier__button:hover {
+    background-color: #FADA70;
+}
+
+.contactformulier label {
+    display: none;
+}
+
+#map-container {
+    height: 400px; /* hoogte van de kaart-container */
+}
+
+iframe {
+    width: 100%;
+    height: 60%;
+}
+
+
+/*
+    --- MEDIA QUERIES ---
+*/
+
+/* MediaQuery voor border bij contactformulier */
+@media screen and (max-width: 992px) {
+.contact-adres:first-of-type {
+    border-right: none;
+}
 }
