@@ -82,7 +82,62 @@ nav a:hover{
     max-height: 400px;
 }
 
+/* ABOUT GEDEELTE CTA MET BUTTONS */
 
+.about__qr {
+    width: 100%;
+    height: auto;
+}
+
+.about-cta__heading {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.store__button--small {
+    font-size: .8rem;
+    font-weight: 600;
+    background-color: #F9CB33;
+    color: #343a40;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+
+.store__button--small:hover {
+    font-size: .82rem;
+    background-color: #FADA70;
+    color: #343a40;
+}
+
+.store__icon--small {
+    height: 1rem;
+    margin-right: .5rem;
+}
+
+/* --- ABOUT MINI NAV ---*/
+
+.about__navheading {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.about__navlink {
+    text-decoration: none;
+    font-weight: 600;
+    color: #707070;
+}
+
+.about__navlink:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.about__bullet {
+    font-weight: 900;
+    color: #F9CB33;
+}
 /*   --- FAQ ---    */
 
 .faq-header__subheading,
@@ -138,23 +193,19 @@ button.accordion-button:focus{
 .ondersteuning {
     margin-top: 15%;
 }
-
 .ondersteuning__card {
     background-color: #698AFF;
     text-decoration: none;
     color: #f4f4f9;
 }
-
 .ondersteuning__card:hover {
     background-color: #B4C4FF;
     text-decoration: none;
     color: #f4f4f9;
 }
-
 .ondersteuning__icon {
     font-size: 3rem;
 }
-
 .ondersteuning__cardtext {
     font-weight: 500;
     margin: 0;
@@ -168,15 +219,12 @@ button.accordion-button:focus{
     font-weight: 600;
     font-size: 2rem;
 }
-
 .tutorials__textbox {
     border-top:lightgray 1px solid;
 }
-
 .tutorials__textbox:first-of-type {
     border-top: none;
 }
-
 .tutorials__textbox p {
     font-weight: 400;
     font-size: .9rem;
