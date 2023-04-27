@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*  --- UTILITY ---
+/*  --- UTILITIES ---
 
     #053DFF BUILDR BLUE
     #698AFF BUILDR BLUE 75%
@@ -22,32 +22,29 @@
 
 */
 
+/* --- MODIFIERS --- */
+
 .bshadow {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
-/*
-    --- NAVBAR
-*/
+/* --- NAVBAR --- */
 
 .buildr-navbar {
     background-color: #053DFF;
     text-underline: none;
 }
-
-nav a {
+.buildr-navbar a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
     color: #FFF;
 }
-
-nav a:hover{
+.buildr-navbar a:hover{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
 }
-
 .buildr-navbar__logo {
     height: 2rem;
     margin: 1rem auto;
@@ -59,41 +56,31 @@ nav a:hover{
     width: 100%;
     height: auto;
 }
-
 .about-header__subheading {
     text-align: center;
     font-weight: 500;
     font-size: 1.2rem;
     color: #707070;
 }
-
 .about__subheading {
     font-weight: 700;
     color: #343a40;
 }
-
 .about__bodytext {
     color: #707070;
     font-weight: 500;
 }
-
 .about__img {
     width: 100%;
     max-height: 400px;
 }
 
-/* ABOUT GEDEELTE CTA MET BUTTONS */
-
-.about__qr {
-    width: 100%;
-    height: auto;
-}
+/* --- ABOUT GEDEELTE CTA MET BUTTONS --- */
 
 .about-cta__heading {
     font-weight: 700;
     font-size: 3rem;
 }
-
 .store__button--small {
     font-size: .8rem;
     font-weight: 600;
@@ -103,41 +90,37 @@ nav a:hover{
     border-radius: 2rem;
     text-decoration: none;
 }
-
 .store__button--small:hover {
     font-size: .82rem;
     background-color: #FADA70;
     color: #343a40;
 }
-
 .store__icon--small {
     height: 1rem;
     margin-right: .5rem;
 }
 
-/* --- ABOUT MINI NAV ---*/
+/* --- ABOUT MINI NAV --- */
 
 .about__navheading {
     font-size: .9rem;
     font-weight: 500;
 }
-
 .about__navlink {
     text-decoration: none;
     font-weight: 600;
     color: #707070;
 }
-
 .about__navlink:hover {
     text-decoration: underline;
     font-weight: 700;
     color: #343a40;
 }
-
 .about__bullet {
     font-weight: 900;
     color: #F9CB33;
 }
+
 /*   --- FAQ ---    */
 
 .faq-header__subheading,
@@ -147,7 +130,6 @@ nav a:hover{
     font-weight: 600;
     color: #707070;
 }
-
 .faq-header__heading,
 .ondersteuning-header__heading,
 .tutorials__heading,
@@ -156,22 +138,19 @@ nav a:hover{
     font-weight: 700;
     color: #2B2A37;
 }
-
 .accordion-button:not(.collapsed)::after {
     background-image: url("assets/black/plus-button.png");
 }
-
 .accordion-button::after {
     background-image: url("assets/black/plus-button.png");
 }
-
 .faq-vraag {
     font-weight: 600;
 }
-
 .faq-text {
     font-size: 0.9rem;
     color: #707070;
+    max-width: 80ch;
 }
 
 /* BUTTONS VAN FAQ MET PLUS SYMBOOL */
@@ -231,15 +210,13 @@ button.accordion-button:focus{
     color: #707070;
 }
 
-iframe {
+.tut__videoblock iframe {
     border-radius: 8px;
 }
-
 .tut__video {
     width: 100%;
     height: auto;
 }
-
 .tut__videoblock {
     background-color: #f4f4f9;
     border-radius: 16px;
@@ -253,26 +230,22 @@ iframe {
 .contact-adres:first-of-type {
     border-right: 1px solid #CCCCCC;
 }
-
 .adres__heading {
     font-size: 1rem;
     font-weight: 700;
     color: #2B2A37;
 }
-
 .adres__list {
     list-style-type: none;
     text-decoration: none;
     list-style-position: inside;
     padding-left: 0;
 }
-
 .adres__listitem {
     margin-bottom: .2rem;
     font-weight: 400;
     font-size: .9rem;
 }
-
 .formulier__button {
     text-align: center;
     background-color: #F9CB33;
@@ -281,25 +254,19 @@ iframe {
     padding: .4rem 1.2rem;
     font-weight: 600;
 }
-
 .formulier__button:hover {
     background-color: #FADA70;
 }
-
 .contactformulier label {
     display: none;
 }
-
 #map-container {
     height: 400px; /* hoogte van de kaart-container */
 }
-
 .contact-map iframe {
     width: 100%;
     height: 60%;
 }
-
-
 
 /* Footer */
 
@@ -312,7 +279,6 @@ footer{
     margin-top: 1vh;
     margin-bottom: 1vh;
 }
-
 .footer__download_button {
     font-size: .9rem;
     font-weight: 600;
@@ -326,7 +292,6 @@ footer{
     border-radius: 2rem;
     text-decoration: none;
 }
-
 .footer__download_button:hover {
     color: #707070;
     padding: 0.5rem 1rem;
@@ -339,29 +304,24 @@ footer{
     height: 1.4rem;
     margin-right: .75rem;
 }
-
 .footer__breakline {
     width: 100%;
     height: 1px;
     color: #f4f4f9;
 }
-
 #footer__contactgegevens p{
     margin: 0;
 }
-
 #footer__contactgegevens h6{
     font-size: 1rem;
     font-weight: 600;
     color: #f4f4f9;
 }
-
 #footer__contactgegevens p {
     color: #f4f4f9;
     font-size: 75%;
     font-weight: 500;
 }
-
 .footer__button_contacteer{
     font-weight: 600;
     font-size: 1.2rem;
@@ -371,21 +331,66 @@ footer{
     border-radius: 2rem;
     text-decoration: none;
 }
-
 .footer__icon{
     width: 2rem;
     margin: 1px;
 }
 
+/* --- 404 ERROR PAGE --- */
 
+.terug__link {
+    font-size: 3rem;
+    color: rgb(255, 221, 50);
+    font-weight: 500;
+    text-decoration: none;
+}
+.terug__link:hover {
+    font-style: italic;
+    color: #343a40;
+}
+
+.error__heading {
+    font-size: 5rem;
+    font-weight: 700;
+}
+.error__subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #707070;
+}
+
+.errormessage {
+    margin-top: 30vh;
+}
+
+.nieuwsbrief__form input[type=email] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.nieuwsbrief__button {
+    font-weight: 600;
+    text-align: center;
+    background-color: #F9CB33;
+    border: none;
+    border-radius: 2rem;
+    padding: .4rem 1.2rem;
+
+}
+.nieuwsbrief__button:hover {
+    background-color: #FADA70;
+}
 
 /*
     --- MEDIA QUERIES ---
 */
 
 
-@media (max-width: 760px) {
-    /*FOOTER*/
+
+
+@media screen and (max-width: 760px) {
+
     .footer__inhoud{
         text-align-last: center;
     }
@@ -404,14 +409,16 @@ footer{
     #footer__top{
         justify-content: center;
     }
-    /* FOOTER EINDE*/
+
 }
 
 
 /* MediaQuery voor border bij contactformulier */
 
 @media screen and (max-width: 992px) {
+
 .contact-adres:first-of-type {
     border-right: none;
-}
+    }
+
 }
