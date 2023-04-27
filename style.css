@@ -50,6 +50,51 @@
     margin: 1rem auto;
 }
 
+/* --- CHECKOUT PAGE --- */
+
+.checkout__block {
+    background-color: #2B2A37;
+}
+.checkout__title {
+    font-size: 1.5rem;
+    color: #f4f4f9;
+}
+.checkout__eyebrowtxt {
+    color: #CCCCCC;
+}
+.checkout__list {
+    color: #f4f4f9;
+}
+.checkout__list i {
+    color: #ffdd32;
+}
+.checkout__list a {
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.checkout__price {
+    color: #f4f4f9;
+}
+
+.checkout-form__heading {
+    font-weight: 700;
+    margin: 0;
+}
+.checkout-form__txt {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #707070;
+}
+
+.checkoutbtn-bank {
+    background-color: #f4f4f9;
+    border: 1px solid #CCCCCC;
+}
+.checkoutbtn-apple {
+    background-color: #343a40;
+    color: #f4f4f9;
+}
 /* --- ABOUT --- */
 
 .about-header__img {

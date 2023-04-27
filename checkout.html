@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buildr. - Contact</title>
+  <title>Buildr. - Checkout</title>
   <link rel="icon" type="image/x-icon" href="assets/buildr/buildr_logoicon_white.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,9 +12,8 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="bootstrap/bootstrap.bundle.min.js"></script>
-      <!--
-      <script defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
-      -->
+  <script defer src="https://kit.fontawesome.com/3e2da0ee3d.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -45,83 +44,67 @@
   </div>
 </nav>
 
-<!-- FAQ HEADER -->
+<!-- CHECKOUT SCREEN -->
 
-  <div class="container contact-header mt-5 justify-content-center">
-    <h1 class="row justify-content-center contact-header__heading">Heb je nog een vraag?</h1>
-    <h2 class="row justify-content-center contact__subheading">Contacteer ons.</h2>
+<div class="container mx-auto mt-5">
+  <div class="row justify-content-around">
+
+  <div class="checkout__block col-10 col-md-4 col-lg-3 p-3 h-100 rounded-3 mx-auto">
+    <h4 class=" border-bottom p-2 checkout__title">Buildr.PRO+</h4>
+    <p class="checkout__eyebrowtxt mt-2" >Voordelen:</p>
+    <ul class="fa-ul checkout__list">
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>Onbeperkt vacatures plaatsen</a></li>
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>24/7 support</a></li>
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>Matchmakers</a></li>
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>Persoonlijk Dashboard</a></li>
+    </ul>
+    <h3 class="justify-content-center checkout__price border-top text-center py-1">Gratis</h3>
   </div>
 
-<!-- Contact Form -->
+  <!-- FORMULIER BETAAL NU -->
 
-<div class="container col-12 col-lg-8">
-  <div class="row mx-auto justify-content-center">
-    <div class="col-12 col-lg-4 p-2 mx-auto my-4 contact-adres">
-      <h2 class="adres__heading">Contactgegevens</h2>
-      <ul class="adres__list" >
-        <li>
-          <p class="adres__listitem">Hogeschool PXL</p>
-        </li>
-        <li>
-          <p class="adres__listitem">Elfde Liniestraat 24</p>
-        </li>
-        <li>
-          <p class="adres__listitem">Adres</p>
-        </li>
-        <li>
-          <p class="adres__listitem">Adres</p>
-        </li>
-      </ul>
-    </div>
-    <div class="col-12 col-lg-6 p-2 mx-auto my-4 contact-adres">
-      <h2 class="adres__heading">Stuur een bericht</h2>
-      <form class="contactformulier">
-        <div class="row mb-2">
-          <div class="col">
-            <input type="text" id="voornaam" class="form-control" placeholder="Voornaam">
-            <label for="voornaam"></label>
-          </div>
-          <div class="col">
-            <input type="text" id="achternaam" class="form-control" placeholder="Achternaam">
-            <label for="achternaam"></label>
-          </div>
-        </div>
-        <div class="mb-4">
-          <input type="text" id="onderwerp" class="form-control" placeholder="Onderwerp">
-          <label for="onderwerp"></label>
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" id="boodschap" rows="5" placeholder="Schrijf iets moois,.."></textarea>
-          <label for="boodschap"></label>
-        </div>
-        <button type="submit" class="formulier__button bshadow">Verzenden</button>
-      </form>
-    </div>
-    </div>
-  </div>
-
-<!-- MAP ONDERAAN -->
-
-<div class="container mt-5 contact-map">
-  <div class="row mx-auto">
-      <div class="col-12 col-md-10 mb-2 mx-auto" id="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.2578150157956!2d5.345573276242648!3d50.93744495218057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c12177528ced33%3A0x27d80a1d25c8505!2sPXL%20University%20of%20Applied%20Sciences%20and%20Arts!5e0!3m2!1sen!2sbe!4v1682466852046!5m2!1sen!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="col-10 col-md-7 col-lg-8 mt-4 mt-lg-0 mx-auto">
+    <h2 class="checkout-form__heading text-center text-md-start mb-3">Betaal nu, registreer later.</h2>
+    <form>
+      <label for="name" class="form-label d-none"></label>
+      <input type="text" class="form-control mb-2" id="name" placeholder="Geef je naam in">
+      <label for="email" class="form-label d-none"></label>
+      <input type="email" class="form-control mb-3" id="email" placeholder="Geef je mailadres in">
+      <p class="checkout-form__txt" >We sturen je een link met je registratiegegevens.<br>Zo kan je je account activeren en de app installeren..</p>
+      <div class="row mx-auto mb-3">
+        <button class="col me-1 py-3 btn checkoutbtn-bank" type="button"><i class="fa-solid fa-credit-card mx-1"></i>Kaart</button>
+        <button class="col ms-1 py-3 btn checkoutbtn-apple" type="button"><i class="fab fa-apple-pay"></i> Apple Pay</button>
       </div>
+      <div class="mb-3">
+        <label for="bank" class="form-label d-none">Kies je bank:</label>
+        <select id="bank" class="form-select" aria-label="Kies je bank:">
+          <option selected>Kies je bank</option>
+          <option value="ING">ING</option>
+          <option value="KBC">KBC</option>
+          <option value="BNP Paribas">BNP Paribas</option>
+        </select>
+      </div>
+      <button type="submit" class="formulier__button bshadow">Betaal 99,90€</button>
+    </form>
+  </div>
   </div>
 </div>
 
-<!-- FOOTER SECTIE -->
+
+
+
+<!-- FOOTER -->
 
 <footer>
-  <div class="container mx-auto footer__inhoud py-3">
+  <div class="container mx-auto footer__inhoud py-3 mt-5">
     <div id="footer__top" class="row">
       <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
         <img id="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr.">
       </div>
       <div class="col-md-6  text-end align-self-center">
-        <p>
-          <a class="footer__download_button bshadow" href="#">
-            <img src="assets/black/Icon%20awesome-google-play.png" alt="Playstore Icon">Download in de play store</a></p>
+        <p><a class="footer__download_button bshadow" href="#"><img
+                src="assets/black/Icon%20awesome-google-play.png"
+                alt="Playstore Icon">Download in de play store</a></p>
         <p><a class="footer__download_button bshadow" href="#"><img
                 src="assets/black/Icon%20awesome-app-store-ios.png"
                 alt="Appstore Icon">Download in de app store</a></p>
@@ -157,6 +140,5 @@
     </div>
   </div>
 </footer>
-
 </body>
 </html>
