@@ -65,6 +65,46 @@
 
 /* --- PRO --- */
 
+.pro-hero__block{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.pro-hero__header {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.pro__header {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f4f4f9;
+}
+
+.pro-header__heading {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #f4f4f9;
+}
+.pro__subheading {
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.pro-hero__button {
+    color: #2B2A37;
+    border: none;
+    background-color: #ffdd32;
+    width: 8rem;
+    border-radius: 4rem;
+    padding: 10px 0;
+}
+.pro-uitleg {
+    background-color: #2B2A37;
+}
+.pro-uitleg__logo img {
+    width: 100%;
+    height: auto;
+}
 .pro__h3 {
     font-size: 1rem;
     font-weight: 600;
@@ -77,8 +117,22 @@
     color: #CCCCCC;
 }
 
-.pro-uitleg {
-    background-color: #2B2A37;
+.pro-bcm__txt {
+    font-size: 1rem;
+}
+.pro-bcm__img {
+    min-height: 12rem;
+    object-fit: cover;
+}
+
+.pro-subscription__price {
+    font-weight: 600;
+    margin-top: 120px;
+    color: #2B2A37;
+}
+
+.price_subtext {
+    font-size: 1rem;
 }
 
 /* --- CHECKOUT PAGE --- */
@@ -301,9 +355,7 @@ button.accordion-button:focus{
     padding: 3rem;
 }
 
-/*
-    --- CONTACT ---
-*/
+/*  --- CONTACT --- */
 
 .contact-adres:first-of-type {
     border-right: 1px solid #CCCCCC;
@@ -388,10 +440,6 @@ button.accordion-button:focus{
     color: #2B2A37;
     transition: background-color 0.3s ease;
 }
-
-
-
-
 
 .load-more-container {
     display: flex;
@@ -548,10 +596,10 @@ button.accordion-button:focus{
     .footer__download_button{
         margin-top: 8px;
     }
-    #footer__logo {
+    .footer__logo {
         margin-bottom: 1rem;
     }
-    #footer__top {
+    .footer__top {
         justify-content: center;
     }
 

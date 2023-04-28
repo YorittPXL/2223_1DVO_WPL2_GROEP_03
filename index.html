@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap links (2) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/buildr/buildr_logoicon_white.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
-    <!--    Link naar css file-->
     <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image" href="assets/buildr/buildr_logoicon_black.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script defer src="bootstrap/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-<!--Navbar -->
+
+
+<!--
+
+---  Navbar ALTERNATIEVE VERSIE MET HAMBURGER MENU ?
+
+
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img id="nav_logo" src="assets/buildr/buildr_logofull_black.png" alt="Logo Buildr."></a>
@@ -40,68 +49,82 @@
         </div>
     </div>
 </nav>
+-->
 
+<!-- Navigatiebalk (Logo links uitgelijnd) -->
 
-<!--Navbar einde-->
-
-
-<!--  BODY -->
-
-
-<!--  BODY einde -->
-
-
-
-<!--Footer-->
-<footer class="fixed-bottom">
-    <div class="index-footer__inhoud">
-        <div id="index-footer__head" class="row">
-            <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
-                <img id="index-footer__logo" src="assets/buildr/buildr_logofull_black.png" alt="logo buildr.">
+<nav class="buildr-navbar">
+    <div class="container mx-auto ">
+        <div class="row justify-content-between">
+            <div class="col-md-4">
+                <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
             </div>
-            <div class="col-md-6 text-end align-self-center">
-                <p><a class="index-footer__download_button" href="#"><img
-                        src="assets/white/Icon%20awesome-google-play.png"
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="buildr_pro.html">Pro</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="about.html">Over ons</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="ondersteuning.html">Ondersteuning</a>
+            </div>
+            <div class="col-md-auto justify-content-center align-self-center">
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main></main>
+
+<!-- FOOTER -->
+
+<footer class="footer__box py-2">
+    <div class="container mx-auto footer__inhoud py-3">
+        <div class="row">
+            <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
+                <a href="index.html"><img class="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr."></a>
+            </div>
+            <div class="col-md-6  text-end align-self-center">
+                <p><a class="footer__download_button bshadow" href="#"><img
+                        src="assets/black/Icon%20awesome-google-play.png"
                         alt="Playstore Icon">Download in de play store</a></p>
-                <p><a class="index-footer__download_button" href="#"><img
-                        src="assets/white/Icon%20awesome-app-store-ios.png"
+                <p><a class="footer__download_button bshadow" href="#"><img
+                        src="assets/black/Icon%20awesome-app-store-ios.png"
                         alt="Appstore Icon">Download in de app store</a></p>
             </div>
         </div>
-
         <div class="row">
-            <div class="col-12 py-0 my-0">
-                <hr>
+            <div class="col-12">
+                <hr class="footer__breakline my-3 mx-auto py-0">
             </div>
         </div>
-
         <div class="row">
-
-            <div id="index-footer__contactgegevens" class="col-md-3">
+            <div class="footer__contactgegevens col-md-3">
                 <h6>Contactgegevens</h6>
                 <p>Hogeschool PXL</p>
                 <p>Elfde-liniestraat 24</p>
                 <p>B-3500 HASSELT</p>
                 <p>GSM: 011 77 55 55</p>
             </div>
-            <div id="index-footer__contact_knop"
-                 class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
-                <a class="index-footer__button_contacteer" href="#">Contacteer ons!</a>
+            <div class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
+                <a class="footer__button_contacteer bshadow" href="#">Contacteer ons!</a>
             </div>
-
             <div class="col-md-3 text-end">
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20awesome-facebook-square.png"
-                                 alt="Facebook logo"></a>
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20awesome-linkedin.png"
-                                 alt="LinkedIn logo"></a>
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20simple-instagram.png"
-                                 alt="Instagram logo"></a>
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20awesome-twitter-square.png"
-                                 alt="Twitter logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png" alt="Facebook logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png" alt="LinkedIn logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png" alt="Instagram logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png" alt="Twitter logo"></a>
             </div>
         </div>
     </div>
 </footer>
+
+<!--Footer-->
+
 <!--Footer einde-->
 
 </body>
