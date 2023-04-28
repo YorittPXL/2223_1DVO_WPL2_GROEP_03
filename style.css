@@ -402,11 +402,11 @@ button.accordion-button:focus{
 
 /* Footer */
 
-footer {
+.footer__box {
     background-color: #053DFF;
 }
 
-#footer__logo{
+.footer__logo{
     height: 2em;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -441,15 +441,15 @@ footer {
     height: 1px;
     color: #f4f4f9;
 }
-#footer__contactgegevens p {
+.footer__contactgegevens p {
     margin: 0;
 }
-#footer__contactgegevens h6 {
+.footer__contactgegevens h6 {
     font-size: 1rem;
     font-weight: 600;
     color: #f4f4f9;
 }
-#footer__contactgegevens p {
+.footer__contactgegevens p {
     color: #f4f4f9;
     font-size: 75%;
     font-weight: 500;

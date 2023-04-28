@@ -4,6 +4,21 @@
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
 }
+
+/* UTILITY
+
+#053DFF BUILDR BLUE
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+
+#F9CB33 BUILDR BLUE
+#698AFF BUILDR BLUE 75%
+#B4C4FF BUILDR BLUE 50%
+
+*/
+
+/* TE BEKIJKEN OM ZETTEN NAAR CLASSES EN INPASSEN IN STYLE.CSS.
+
 nav {
     background-color: #053DFF;
     text-underline: none;
@@ -16,28 +31,16 @@ nav a {
     color: #FFF;
 }
 
+
+
 nav a:hover{
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
 }
 
-.buildr-navbar__logo {
-    height: 2rem;
-    margin: 1rem auto;
-}
-/* UTILITY
-
-#053DFF BUILDR BLUE
-#698AFF BUILDR BLUE 75%
-#B4C4FF BUILDR BLUE 50%
-
-#F9CB33 BUILDR BLUE
-#698AFF BUILDR BLUE 75%
-#B4C4FF BUILDR BLUE 50%
-
-
 */
+
 .pro-hero__block{
     margin-top: 10%;
     margin-bottom: 10%;
@@ -59,7 +62,7 @@ nav a:hover{
     height: auto;
 }
 
-button{
+.pro-hero__button {
     color: white;
     border: 1px solid black;
     background: black;
@@ -73,32 +76,32 @@ button{
     padding: 5% 0;
 }
 
-.pro-uitleg__logo img{
+.pro-uitleg__logo img {
     width: 100%;
     height: auto;
 }
-.pro-subscription__block{
+.pro-subscription__block {
     color: black;
     border-radius: 10px;
 }
-.pro-subscription__price{
+.pro-subscription__price {
     margin-top: 150px;
 }
 
 /*Footer*/
 
-footer{
+footer {
     background-color: #F3F3F3;
 }
 
-.index-footer__inhoud{
+.index-footer__inhoud {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     margin-left: 5rem;
     margin-right: 5rem;
 }
 
-#index-footer__logo{
+#index-footer__logo {
     width: 12em;
 }
 
@@ -119,7 +122,7 @@ footer p {
     text-decoration: none;
 }
 
-.index-footer__download_button img{
+.index-footer__download_button img {
     height: 1.5rem;
     margin-right: 1rem;
 
@@ -135,21 +138,21 @@ footer hr {
 
 
 
-#index-footer__contactgegevens p{
+#index-footer__contactgegevens p {
     margin: 0;
 }
 
-#index-footer__contactgegevens h6{
+#index-footer__contactgegevens h6 {
     font-size: 95%;
     font-weight: 700;
 }
 
-#index-footer__contactgegevens p{
+#index-footer__contactgegevens p {
     font-size: 75%;
     font-weight: 500;
 }
 
-.index-footer__button_contacteer{
+.index-footer__button_contacteer {
     font-weight: 700;
     font-size: 110%;
     background-color: black;
@@ -161,15 +164,17 @@ footer hr {
 
 }
 
-.index-footer__icon{
+.index-footer__icon {
     width: 2rem;
     margin: 1px;
 }
 
-@media (max-width: 760px) {
-    .index-footer__inhoud{
-        text-align-last: center;
+/*
 
+@media (max-width: 760px) {
+
+    .index-footer__inhoud {
+        text-align-last: center;
     }
 
     .text-end{
@@ -193,6 +198,4 @@ footer hr {
     }
 }
 
-
-
-/*Footer einde*/
+*/

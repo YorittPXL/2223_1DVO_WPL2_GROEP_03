@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pro</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="buildr.pro-page.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/3e2da0ee3d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,7 +23,7 @@
             <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
         </div>
         <div class="col-md-auto justify-content-center align-self-center">
-            <a href="#">Pro</a>
+            <a href="buildr.pro-page.html">Pro</a>
         </div>
         <div class="col-md-auto justify-content-center align-self-center">
             <a href="about.html">Over ons</a>
@@ -43,16 +44,16 @@
 
 
 <main>
-    <div class="container p-5 justify-content-center pro-hero__block">
-        <div class="row justify-content-center">
-            <div class="col-xs-12 order-xs-2 col-md-5 justify-content-start bg-dark rounded-2">
+    <div class="container justify-content-center pro-hero__block">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xs-12 order-xs-2 col-md-4 justify-content-start rounded-2">
+                <img class="img-fluid" src="assets/pro_magazijn.png" alt="Buildr Pro Afbeelding man.">
             </div>
-            <div class="col-xs-12 order-xs-1 col-md-5 offset-md-1  justify-content-start align-self-end pro-hero__landing">
-                <img class="pro-hero__logo" src="assets/buildr/PRO/Prologo_naam_icoon_zwart.png" height="196"
-                     width="1233" alt="Logo-Pro-Black"/>
+            <div class="col-xs-12 order-xs-1 col-md-6 offset-md-1  justify-content-start align-self-center pro-hero__landing">
+                <img class="pro-hero__logo img-fluid" src="assets/buildr/PRO/Prologo_naam_icoon_zwart.png" alt="Logo-Pro-Black"/>
                 <p class="pro-hero__header mt-4">Kandidaten vinden was nog nooit zo makkelijk.</p>
                 <p class="pro-hero__header mt-2">Schrijf je in op ons portaal en ontdek jouw match.</p>
-                <button type="button">Abonneer <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="pro-hero__button" type="button">Abonneer <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
@@ -67,7 +68,7 @@
             </div>
             <div class="row mt-3 justify-content-around">
                 <div class="col-xs-12 col-md-6 col-lg-3 p-2">
-                    <img src="#" alt="img" class="pro-uitleg__img">
+                    <img src="assets/p" alt="img" class="pro-uitleg__img">
                     <h3>Matchmakers</h3>
                     <p>Onze Matchmakers ondersteunen zowel jou onderneming, als de kandidaat. Zo vind je steeds de
                         ideale match.</p>
@@ -147,54 +148,48 @@
 
 </main>
 
-<footer>
-    <div class="index-footer__inhoud">
-        <div id="index-footer__head" class="row">
+<!-- FOOTER -->
+
+<footer class="footer__box">
+    <div class="container mx-auto footer__inhoud py-3 mt-5">
+        <div class="row">
             <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
-                <img id="index-footer__logo" src="assets/buildr/buildr_logofull_black.png" alt="logo buildr.">
+                <a href="index.html"><img class="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr."></a>
             </div>
             <div class="col-md-6  text-end align-self-center">
-                <p><a class="index-footer__download_button" href="#"><img
-                        src="assets/white/Icon%20awesome-google-play.png"
+                <p><a class="footer__download_button bshadow" href="#"><img
+                        src="assets/black/Icon%20awesome-google-play.png"
                         alt="Playstore Icon">Download in de play store</a></p>
-                <p><a class="index-footer__download_button" href="#"><img
-                        src="assets/white/Icon%20awesome-app-store-ios.png"
+                <p><a class="footer__download_button bshadow" href="#"><img
+                        src="assets/black/Icon%20awesome-app-store-ios.png"
                         alt="Appstore Icon">Download in de app store</a></p>
             </div>
         </div>
-
         <div class="row">
             <div class="col-12">
-                <hr>
+                <hr class="footer__breakline my-3 mx-auto py-0">
             </div>
         </div>
-
         <div class="row">
-
-            <div id="index-footer__contactgegevens" class="col-md-3">
+            <div class="footer__contactgegevens col-md-3">
                 <h6>Contactgegevens</h6>
                 <p>Hogeschool PXL</p>
                 <p>Elfde-liniestraat 24</p>
                 <p>B-3500 HASSELT</p>
                 <p>GSM: 011 77 55 55</p>
             </div>
-            <div id="index-footer__contact_knop"
-                 class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
-                <a class="index-footer__button_contacteer" href="#">Contacteer ons!</a>
+            <div class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
+                <a class="footer__button_contacteer bshadow" href="#">Contacteer ons!</a>
             </div>
-
             <div class="col-md-3 text-end">
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20awesome-facebook-square.png"
-                                 alt="Facebook logo"></a>
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20awesome-linkedin.png"
-                                 alt="LinkedIn logo"></a>
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20simple-instagram.png"
-                                 alt="Instagram logo"></a>
-                <a href="#"><img class="index-footer__icon" src="assets/black/Icon%20awesome-twitter-square.png"
-                                 alt="Twitter logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png" alt="Facebook logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png" alt="LinkedIn logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png" alt="Instagram logo"></a>
+                <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png" alt="Twitter logo"></a>
             </div>
         </div>
     </div>
 </footer>
+
 </body>
 </html>
