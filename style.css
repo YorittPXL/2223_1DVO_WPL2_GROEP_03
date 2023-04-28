@@ -63,6 +63,24 @@
     margin: 1rem auto;
 }
 
+/* --- PRO --- */
+
+.pro__h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f4f4f9;
+}
+
+.pro__bodytext {
+    font-size: .85rem;
+    font-weight: 400;
+    color: #CCCCCC;
+}
+
+.pro-uitleg {
+    background-color: #2B2A37;
+}
+
 /* --- CHECKOUT PAGE --- */
 
 .checkout__block {
