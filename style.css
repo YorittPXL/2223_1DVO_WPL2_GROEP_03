@@ -5,6 +5,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/*  --- MASTER PAGE ---
+
+    DIT IS HET HOOFD CSS BESTAND. ALLE UITEINDELIJK CSS MOET NAAR HIER KOMEN
+    LET OP !!
+    --  BEM-NOTATIE PROBEREN HANDHAVEN AUB.
+    --  GEEN ALGEMENE SELECTOREN zoals 'p', 'nav', .. GEBRUIKEN AUB,
+    DIT HEEFT ANDERS EFFECT ALLE ELEMENTEN IN ALLE PAGINA'S
+
+    --  NAVBAR ZOU BEST WORDEN AANGEPAST IN "INDEX" EN "PRO PAGES",NAAR DEZE VERSIE IN HET BLAUW
+*/
+
+
+
 /*  --- UTILITIES ---
 
     #053DFF BUILDR BLUE
@@ -354,10 +367,10 @@ footer{
     height: 1px;
     color: #f4f4f9;
 }
-#footer__contactgegevens p{
+#footer__contactgegevens p {
     margin: 0;
 }
-#footer__contactgegevens h6{
+#footer__contactgegevens h6 {
     font-size: 1rem;
     font-weight: 600;
     color: #f4f4f9;
@@ -367,7 +380,7 @@ footer{
     font-size: 75%;
     font-weight: 500;
 }
-.footer__button_contacteer{
+.footer__button_contacteer {
     font-weight: 600;
     font-size: 1.2rem;
     background-color: #F3F3F3;
@@ -376,7 +389,7 @@ footer{
     border-radius: 2rem;
     text-decoration: none;
 }
-.footer__icon{
+.footer__icon {
     width: 2rem;
     margin: 1px;
 }
@@ -427,31 +440,26 @@ footer{
     background-color: #FADA70;
 }
 
-/*
-    --- MEDIA QUERIES ---
-*/
-
-
-
+/*  --- MEDIA QUERIES ---   */
 
 @media screen and (max-width: 760px) {
 
-    .footer__inhoud{
+    .footer__inhoud {
         text-align-last: center;
     }
-    .text-end{
+    .text-end {
         text-align: center;
     }
-    .footer__icon{
+    .footer__icon {
         margin-top: 1rem;
     }
     .footer__download_button{
         margin-top: 8px;
     }
-    #footer__logo{
+    #footer__logo {
         margin-bottom: 1rem;
     }
-    #footer__top{
+    #footer__top {
         justify-content: center;
     }
 
