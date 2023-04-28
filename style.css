@@ -16,6 +16,11 @@
     --  NAVBAR ZOU BEST WORDEN AANGEPAST IN "INDEX" EN "PRO PAGES",NAAR DEZE VERSIE IN HET BLAUW
 */
 
+.bg-primary {
+    background-color: #053DFF !important;
+
+}
+
 
 
 /*  --- UTILITIES ---
@@ -45,13 +50,13 @@
 
 .buildr-navbar {
     background-color: #053DFF;
-    text-underline: none;
+    text-decoration: none;
 }
 .buildr-navbar a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 400;
-    color: #FFF;
+    color: #f4f4f9;
 }
 .buildr-navbar a:hover{
     text-decoration: none;
@@ -63,9 +68,67 @@
     margin: 1rem auto;
 }
 
+/* HOME // INDEX PAGE */
+
+.home-hero__block{
+    margin-top: 10%;
+    margin-bottom: 6%;
+}
+
+.home-header__heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #f4f4f9;
+}
+.home__subheading {
+    color: #cccccc;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.home-buildchatmatch {
+    border-radius: 12px;
+}
+
+.home__download_button {
+    font-size: .9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-content: center;
+    background-color: #ffdd32;
+    color: #343a40;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.home__download_button:hover {
+    background-color: #FADA70;
+}
+
+.home__download_button img {
+    height: 1.4rem;
+    margin-right: .75rem;
+}
+
+.home-bcm__h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f4f4f9;
+}
+.home-bcm__txt {
+    font-size: 1rem;
+    color: #CCCCCC;
+}
+.home-bcm__img {
+    min-height: 12rem;
+    object-fit: cover;
+}
+
 /* --- PRO --- */
 
-.pro-hero__block{
+.pro-hero__block {
     margin-top: 10%;
     margin-bottom: 10%;
 }
@@ -110,7 +173,6 @@
     font-weight: 600;
     color: #f4f4f9;
 }
-
 .pro__bodytext {
     font-size: .85rem;
     font-weight: 400;
@@ -582,7 +644,14 @@ button.accordion-button:focus{
 
 /*  --- MEDIA QUERIES ---   */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 576px) {
+
+    .home-buildchatmatch {
+        border-radius: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
 
     .footer__inhoud {
         text-align-last: center;
