@@ -183,7 +183,8 @@
 
 .faq-header__subheading,
 .tutorials__subheading,
-.contact__subheading {
+.contact__subheading,
+.blog-header__subheading {
     font-size: 1.2rem;
     font-weight: 600;
     color: #707070;
@@ -191,7 +192,8 @@
 .faq-header__heading,
 .ondersteuning-header__heading,
 .tutorials__heading,
-.contact-header__heading {
+.contact-header__heading,
+.blog-header__heading {
     font-size: 2rem;
     font-weight: 700;
     color: #2B2A37;
@@ -326,9 +328,81 @@ button.accordion-button:focus{
     height: 60%;
 }
 
+/* --- BLOG PAGE ---  */
+
+.blog-card-sm {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+.hfix {
+    min-height: 200px;
+}
+.blog-card-sm__img {
+    border-radius: 8px;
+}
+.blog-card-sm__heading {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #343a40;
+}
+.blog-card-sm__txt {
+    font-size: .9rem;
+    color: #707070;
+    max-height: 240px;
+}
+.lees-meer-btn {
+    font-size: .8rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffdd32;
+    color: #2B2A37;
+    line-height: 28px;
+    transition: background-color 0.3s ease;
+}
+
+.lees-meer-btn:hover {
+    font-size: .82rem;
+    background-color: #FADA70;
+    color: #2B2A37;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.load-more-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 24px;
+    border: none;
+    background-color: #ffdd32;
+    color: #2B2A37;
+    line-height: 40px;
+    cursor: pointer;
+}
+.load-more-btn:hover {
+    font-size: 1.02rem;
+    background-color: #FADA70;
+    transition: background-color 0.3s ease;
+}
+
+
+
 /* Footer */
 
-footer{
+footer {
     background-color: #053DFF;
 }
 
@@ -475,3 +549,23 @@ footer{
     }
 
 }
+
+/*
+@media screen and (min-width: 768px) {
+    .blogpost {
+        margin: 40px 0;
+    }
+
+    .blogpost-wide .col-md-6 {
+        margin-bottom: 0;
+    }
+
+    .blogpost-full .col-md-12 {
+        margin-bottom: 0;
+    }
+
+    .btn-load-more {
+        margin-top: 40px;
+    }
+}
+*/

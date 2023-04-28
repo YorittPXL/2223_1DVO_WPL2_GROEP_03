@@ -1,10 +1,20 @@
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Arial, sans-serif;
 }
 
-.post {
+.blog-header {
+
+}
+
+.blog-header__heading {
+
+}
+
+
+.blogpost {
     padding: 20px;
     background-color: #ffffff;
     border: 2px solid #CCCCCC;
@@ -12,21 +22,21 @@
     margin-bottom: 40px;
 }
 
-.post h2 {
+.blogpost h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.post p {
+.blogpost p {
     font-size: 16px;
     line-height: 1.5;
 }
 
-.post-wide .col-md-6 {
+.blogpost-wide .col-md-6 {
     margin-bottom: 40px;
 }
 
-.post-full .col-md-12 {
+.blogpost-full .col-md-12 {
     margin-bottom: 40px;
 }
 
@@ -52,15 +62,15 @@
 }
 
 @media (min-width: 768px) {
-    .post {
+    .blogpost {
         margin: 40px 0;
     }
 
-    .post-wide .col-md-6 {
+    .blogpost-wide .col-md-6 {
         margin-bottom: 0;
     }
 
-    .post-full .col-md-12 {
+    .blogpost-full .col-md-12 {
         margin-bottom: 0;
     }
 
