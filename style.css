@@ -364,7 +364,8 @@ button.accordion-button:focus{
 */
 
 .ondersteuning {
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 10rem;
 }
 .ondersteuning__card {
     background-color: #698AFF;
@@ -644,6 +645,8 @@ button.accordion-button:focus{
 
 /*  --- MEDIA QUERIES ---   */
 
+/*  --- MEDIA QUERY --- TOT 576 PX ---   */
+
 @media screen and (max-width: 576px) {
 
     .home-buildchatmatch {
@@ -651,7 +654,12 @@ button.accordion-button:focus{
     }
 }
 
+/*  --- MEDIA QUERY --- TOT 768 PX ---   */
 @media screen and (max-width: 768px) {
+    .ondersteuning {
+        margin-top: 10%;
+        margin-bottom: 4rem;
+    }
 
     .footer__inhoud {
         text-align-last: center;
@@ -674,8 +682,7 @@ button.accordion-button:focus{
 
 }
 
-
-/* MediaQuery voor border bij contactformulier */
+/*  --- MEDIA QUERY --- TOT 992 PX ---   */
 
 @media screen and (max-width: 992px) {
 
@@ -684,23 +691,3 @@ button.accordion-button:focus{
     }
 
 }
-
-/*
-@media screen and (min-width: 768px) {
-    .blogpost {
-        margin: 40px 0;
-    }
-
-    .blogpost-wide .col-md-6 {
-        margin-bottom: 0;
-    }
-
-    .blogpost-full .col-md-12 {
-        margin-bottom: 0;
-    }
-
-    .btn-load-more {
-        margin-top: 40px;
-    }
-}
-*/
