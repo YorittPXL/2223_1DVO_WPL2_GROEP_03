@@ -126,6 +126,44 @@
     object-fit: cover;
 }
 
+
+
+.home-content__block{
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 5rem;*/
+    /*margin-bottom: 5rem;*/
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: #2B2A37;
+    color: white;
+}
+
+.home-ontdek__tekst{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    margin-right: 2rem;
+}
+
+.home-ontdek__logo{
+    width: 80%;
+}
+
+.home-ontdek__knop{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #053DFF;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+}
+
+
+
+
 /* --- PRO --- */
 
 .pro-hero__block {
@@ -678,6 +716,21 @@ button.accordion-button:focus{
     }
     .footer__top {
         justify-content: center;
+    }
+
+    .home-content__block{
+        text-align: center;
+    }
+
+    .home-ontdek__tekst{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .home-ontdek-fotoleft{
+        margin-top: 3rem;
     }
 
 }
