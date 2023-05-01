@@ -704,3 +704,43 @@ button.accordion-button:focus{
     }
 }
 */
+
+
+/* CSS confirmation page */
+
+.confirmation-element__confirmation{
+    margin-top: 8%;
+}
+.confirmation-element__confirmation img{
+    width: 15%;
+}
+.block-info__confirmation{
+    color: #f4f4f9;
+    border-radius: 25px;
+    margin-top: 6%;
+}
+.confirmation__download_button  {
+     font-size: 1.1rem;
+     font-weight: 600;
+     display: inline-flex;
+     align-content: center;
+     background-color: #f4f4f9;
+     color: #343a40;
+     border: none;
+     padding: 0.5rem 1.1rem;
+     margin-top: 0.15rem;
+     margin-bottom: 0.15rem;
+     border-radius: 2rem;
+     text-decoration: none;
+ }
+.confirmation__download_button:hover {
+    background-color: #FADA70;
+}
+.block-info__confirmation-ondersteuning{
+    color: black;
+}
+.block-info__confirmation-ondersteuning-block{
+    border-radius: 25px;
+    height: 100%;
+}
+
