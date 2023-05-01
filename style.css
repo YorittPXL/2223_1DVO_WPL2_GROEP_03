@@ -704,3 +704,38 @@ button.accordion-button:focus{
     }
 }
 */
+.confirmation-element__confirmation{
+    margin-top: 5%;
+}
+
+.confirmation-element__confirmation img{
+    width: 15%;
+}
+.block-info__confirmation{
+    color: #f4f4f9;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+.confirmation__download_button{
+    font-size: .9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-content: center;
+    background-color: #f4f4f9;
+    color: #343a40;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.confirmation__download_button:hover {
+    background-color: #FADA70;
+}
+.block-info__confirmation-ondersteuning-block{
+    border-radius: 25px;
+    color: black;
+    height: 100%;
+    margin: 0 20px 20px 20px;
+}
