@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Navbar + footer final push">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Landing page - Ontdek meer Block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -74,7 +74,7 @@
       <workItem from="1682522977254" duration="51000" />
       <workItem from="1682525115179" duration="232000" />
       <workItem from="1682936989299" duration="1213000" />
-      <workItem from="1682954824732" duration="6056000" />
+      <workItem from="1682954824732" duration="7031000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -181,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682525306915</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Landing page - Ontdek meer Block">
+      <created>1682962227261</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682962227261</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +217,7 @@
     <MESSAGE value="Assets map aangevuld" />
     <MESSAGE value="Footer responsive" />
     <MESSAGE value="Navbar + footer final push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar + footer final push" />
+    <MESSAGE value="Landing page - Ontdek meer Block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing page - Ontdek meer Block" />
   </component>
 </project>

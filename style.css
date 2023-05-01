@@ -162,6 +162,20 @@
 }
 
 
+.home-recentie__block{
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.home-recentie__inhoud{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: lightgray;
+    height: 200px;
+}
+
+
 
 
 /* --- PRO --- */
