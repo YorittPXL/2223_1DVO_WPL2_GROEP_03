@@ -126,6 +126,58 @@
     object-fit: cover;
 }
 
+
+
+.home-content__block{
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 5rem;*/
+    /*margin-bottom: 5rem;*/
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: #2B2A37;
+    color: white;
+}
+
+.home-ontdek__tekst{
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+    margin-right: 2rem;
+}
+
+.home-ontdek__logo{
+    width: 80%;
+}
+
+.home-ontdek__knop{
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #053DFF;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+}
+
+
+.home-recentie__block{
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.home-recentie__inhoud{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: lightgray;
+    height: 200px;
+}
+
+
+
+
 /* --- PRO --- */
 
 .pro-hero__block {
@@ -364,8 +416,7 @@ button.accordion-button:focus{
 */
 
 .ondersteuning {
-    margin-top: 10%;
-    margin-bottom: 10rem;
+    margin-top: 15%;
 }
 .ondersteuning__card {
     background-color: #698AFF;
@@ -645,8 +696,6 @@ button.accordion-button:focus{
 
 /*  --- MEDIA QUERIES ---   */
 
-/*  --- MEDIA QUERY --- TOT 576 PX ---   */
-
 @media screen and (max-width: 576px) {
 
     .home-buildchatmatch {
@@ -654,12 +703,7 @@ button.accordion-button:focus{
     }
 }
 
-/*  --- MEDIA QUERY --- TOT 768 PX ---   */
 @media screen and (max-width: 768px) {
-    .ondersteuning {
-        margin-top: 10%;
-        margin-bottom: 4rem;
-    }
 
     .footer__inhoud {
         text-align-last: center;
@@ -680,9 +724,25 @@ button.accordion-button:focus{
         justify-content: center;
     }
 
+    .home-content__block{
+        text-align: center;
+    }
+
+    .home-ontdek__tekst{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    .home-ontdek-fotoleft{
+        margin-top: 3rem;
+    }
+
 }
 
-/*  --- MEDIA QUERY --- TOT 992 PX ---   */
+
+/* MediaQuery voor border bij contactformulier */
 
 @media screen and (max-width: 992px) {
 
@@ -690,4 +750,59 @@ button.accordion-button:focus{
     border-right: none;
     }
 
+}
+
+/*
+@media screen and (min-width: 768px) {
+    .blogpost {
+        margin: 40px 0;
+    }
+
+    .blogpost-wide .col-md-6 {
+        margin-bottom: 0;
+    }
+
+    .blogpost-full .col-md-12 {
+        margin-bottom: 0;
+    }
+
+    .btn-load-more {
+        margin-top: 40px;
+    }
+}
+*/
+.confirmation-element__confirmation{
+    margin-top: 5%;
+}
+
+.confirmation-element__confirmation img{
+    width: 15%;
+}
+.block-info__confirmation{
+    color: #f4f4f9;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+.confirmation__download_button{
+    font-size: .9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-content: center;
+    background-color: #f4f4f9;
+    color: #343a40;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.confirmation__download_button:hover {
+    background-color: #FADA70;
+}
+.block-info__confirmation-ondersteuning-block{
+    border-radius: 25px;
+    color: black;
+    height: 100%;
+    margin: 0 20px 20px 20px;
 }

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Footer responsive">
-      <change beforePath="$PROJECT_DIR$/.idea/2223_1DVO_WPL2_GROEP_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2223_1DVO_WPL2_GROEP_03.iml" afterDir="false" />
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Landing page - Ontdek meer Block">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,9 @@
       <workItem from="1682335767211" duration="7949000" />
       <workItem from="1682424287053" duration="9903000" />
       <workItem from="1682522977254" duration="51000" />
+      <workItem from="1682525115179" duration="232000" />
+      <workItem from="1682936989299" duration="1213000" />
+      <workItem from="1682954824732" duration="7031000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -165,7 +167,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682432454330</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Navbar + footer final push">
+      <created>1682525220409</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682525220409</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Navbar + footer final push">
+      <created>1682525306915</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682525306915</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Landing page - Ontdek meer Block">
+      <created>1682962227261</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682962227261</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +216,8 @@
     <MESSAGE value="Navigatiebar (niet responsive)" />
     <MESSAGE value="Assets map aangevuld" />
     <MESSAGE value="Footer responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer responsive" />
+    <MESSAGE value="Navbar + footer final push" />
+    <MESSAGE value="Landing page - Ontdek meer Block" />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing page - Ontdek meer Block" />
   </component>
 </project>
