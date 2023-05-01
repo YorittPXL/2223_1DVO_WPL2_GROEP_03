@@ -163,6 +163,7 @@
 .testimonial__card {
     background-color: #f4f4f9;
     border: 1px solid #CCCCCC;
+    max-width: 400px;
 }
 
 .testimonial__txt {
