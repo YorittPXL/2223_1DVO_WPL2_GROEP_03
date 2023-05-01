@@ -402,8 +402,7 @@ button.accordion-button:focus{
 */
 
 .ondersteuning {
-    margin-top: 10%;
-    margin-bottom: 10rem;
+    margin-top: 15%;
 }
 .ondersteuning__card {
     background-color: #698AFF;
@@ -683,8 +682,6 @@ button.accordion-button:focus{
 
 /*  --- MEDIA QUERIES ---   */
 
-/*  --- MEDIA QUERY --- TOT 576 PX ---   */
-
 @media screen and (max-width: 576px) {
 
     .home-buildchatmatch {
@@ -692,12 +689,7 @@ button.accordion-button:focus{
     }
 }
 
-/*  --- MEDIA QUERY --- TOT 768 PX ---   */
 @media screen and (max-width: 768px) {
-    .ondersteuning {
-        margin-top: 10%;
-        margin-bottom: 4rem;
-    }
 
     .footer__inhoud {
         text-align-last: center;
@@ -735,7 +727,8 @@ button.accordion-button:focus{
 
 }
 
-/*  --- MEDIA QUERY --- TOT 992 PX ---   */
+
+/* MediaQuery voor border bij contactformulier */
 
 @media screen and (max-width: 992px) {
 
@@ -743,4 +736,59 @@ button.accordion-button:focus{
     border-right: none;
     }
 
+}
+
+/*
+@media screen and (min-width: 768px) {
+    .blogpost {
+        margin: 40px 0;
+    }
+
+    .blogpost-wide .col-md-6 {
+        margin-bottom: 0;
+    }
+
+    .blogpost-full .col-md-12 {
+        margin-bottom: 0;
+    }
+
+    .btn-load-more {
+        margin-top: 40px;
+    }
+}
+*/
+.confirmation-element__confirmation{
+    margin-top: 5%;
+}
+
+.confirmation-element__confirmation img{
+    width: 15%;
+}
+.block-info__confirmation{
+    color: #f4f4f9;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+.confirmation__download_button{
+    font-size: .9rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-content: center;
+    background-color: #f4f4f9;
+    color: #343a40;
+    border: none;
+    padding: 0.4rem 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
+    border-radius: 2rem;
+    text-decoration: none;
+}
+.confirmation__download_button:hover {
+    background-color: #FADA70;
+}
+.block-info__confirmation-ondersteuning-block{
+    border-radius: 25px;
+    color: black;
+    height: 100%;
+    margin: 0 20px 20px 20px;
 }
