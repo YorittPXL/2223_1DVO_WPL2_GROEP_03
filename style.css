@@ -92,14 +92,12 @@
 .home__download_button {
     font-size: .9rem;
     font-weight: 600;
-    display: inline-flex;
+    display: inline-block;
     align-content: center;
     background-color: #ffdd32;
     color: #343a40;
     border: none;
     padding: 0.4rem 1rem;
-    margin-top: 0.15rem;
-    margin-bottom: 0.15rem;
     border-radius: 2rem;
     text-decoration: none;
 }
@@ -126,13 +124,9 @@
     object-fit: cover;
 }
 
-
-
 .home-content__block{
     align-items: center;
     justify-content: center;
-    /*margin-top: 5rem;*/
-    /*margin-bottom: 5rem;*/
     padding-top: 10rem;
     padding-bottom: 10rem;
     background-color: #2B2A37;
@@ -150,43 +144,41 @@
 }
 
 .home-ontdek__knop{
-    color: white;
+    color: #2B2A37;
     font-weight: 500;
     text-decoration: none;
-    background-color: #053DFF;
+    background-color: #ffdd32;
     padding-top: .5rem;
     padding-bottom: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 10rem;
 }
-
-
-.home-recentie__block{
-    justify-content: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+.home-ontdek__knop:hover{
+    background-color: #FADA70;
 }
 
-.home-recentie__inhoud{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    background-color: lightgray;
-    height: 200px;
+/* TESTIMONIALS / RECENSIES */
+
+.testimonial__card {
+    background-color: #f4f4f9;
+    border: 1px solid #CCCCCC;
 }
 
-
+.testimonial__txt {
+    max-height: 160px;
+}
 
 
 /* --- PRO --- */
 
-.pro-hero__block {
-    margin-top: 10%;
-    margin-bottom: 10%;
-}
 .pro-hero__header {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     font-weight: 700;
+    color: #2B2A37;
+}
+.pro-hero__img {
+    max-height: 800px;
 }
 
 .pro__header {
@@ -416,7 +408,8 @@ button.accordion-button:focus{
 */
 
 .ondersteuning {
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 8rem;
 }
 .ondersteuning__card {
     background-color: #698AFF;
@@ -704,7 +697,10 @@ button.accordion-button:focus{
 }
 
 @media screen and (max-width: 768px) {
-
+    .ondersteuning {
+        margin-top: 6%;
+        margin-bottom: 4rem;
+    }
     .footer__inhoud {
         text-align-last: center;
     }
