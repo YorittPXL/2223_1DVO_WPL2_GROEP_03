@@ -287,6 +287,36 @@
     background-color: #343a40;
     color: #f4f4f9;
 }
+
+/* ORDER CONFIRMATION */
+
+.confirm-message__heading {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.confirm-message__subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #707070;
+}
+
+.confirm-message {
+    margin-top: 30vh;
+}
+
+.confirm__ondersteuning-card {
+    background-color: #698AFF;
+    text-decoration: none;
+    color: #343a40;
+}
+.confirm__ondersteuning-card {
+    background-color: #d7deff;
+}
+
+.confirmation__infoblock {
+    margin-bottom: 4rem;
+}
+
 /* --- ABOUT --- */
 
 .about-header__img {
@@ -768,6 +798,8 @@ button.accordion-button:focus{
     }
 }
 */
+/*
+
 .confirmation-element__confirmation{
     margin-top: 5%;
 }
@@ -803,3 +835,4 @@ button.accordion-button:focus{
     height: 100%;
     margin: 0 20px 20px 20px;
 }
+*/
