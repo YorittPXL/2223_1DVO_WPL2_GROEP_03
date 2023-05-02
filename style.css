@@ -65,10 +65,10 @@
 .buildr-navbar a:active {
     font-weight: 600;
 }
-
 .activenav {
-    padding-bottom: .2rem;
-    border-bottom: 2px solid #f4f4f9;
+    font-weight: 700;
+    color: #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .buildr-navbar__logo {
