@@ -93,7 +93,8 @@
     font-weight: 400;
     font-size: 1.2rem;
 }
-.home-hero__img {
+.home-hero__img,
+.home-mockups__img {
     filter: drop-shadow(5px 5px 5px rgba(0,0,0, 0.4));
 }
 
@@ -275,7 +276,7 @@
 }
 
 .fa-ul {
-    height: 100px;
+    height: 140px;
 }
 
 /* --- CHECKOUT PAGE --- */
