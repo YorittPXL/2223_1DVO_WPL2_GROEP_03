@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buildr. - Checkout</title>
+  <link rel="icon" type="image/x-icon" href="assets/buildr/buildr_logoicon_white.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="bootstrap/bootstrap.bundle.min.js"></script>
+  <script defer src="https://kit.fontawesome.com/3e2da0ee3d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Navigatiebalk (Logo links uitgelijnd) -->
+
+<nav class="buildr-navbar">
+  <div class="container mx-auto ">
+    <div class="row justify-content-between">
+      <div class="col-md-4">
+        <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="buildr_pro.html">Pro</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="about.html">Over ons</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="ondersteuning.html">Ondersteuning</a>
+      </div>
+      <div class="col-md-auto justify-content-center align-self-center">
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- CHECKOUT SCREEN -->
+
+<div class="container mx-auto mt-5">
+  <div class="row justify-content-around justify-content-lg-center">
+
+  <div class="checkout__block col-10 col-md-4 col-lg-3 col-xl-3 p-3 h-100 rounded-3 mx-auto">
+    <h4 class=" border-bottom p-2 checkout__title">Buildr.PRO+</h4>
+    <p class="checkout__eyebrowtxt mt-2" >Voordelen:</p>
+    <ul class="fa-ul checkout__list">
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>Onbeperkt vacatures plaatsen</a></li>
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>24/7 support</a></li>
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>Matchmakers</a></li>
+      <li class="my-1"><span class="fa-li"><i class="fa-solid fa-circle-check"></i></span><a>Persoonlijk Dashboard</a></li>
+    </ul>
+    <h3 class="justify-content-center mt-1 checkout__price border-top text-center py-1">€ 9,90</h3>
+  </div>
+
+  <!-- FORMULIER BETAAL NU -->
+
+  <div class="col-10 col-md-7 col-lg-8 col-xl-7 mt-4 mt-md-0 mx-auto mb-5">
+    <h2 class="checkout-form__heading text-center text-md-start mb-3">Betaal nu, registreer later.</h2>
+    <form method="POST" autocomplete="on">
+      <label for="name" class="form-label d-none"></label>
+      <input type="text" class="form-control mb-2" id="name" placeholder="Geef je naam in">
+      <label for="email" class="form-label d-none"></label>
+      <input type="email" class="form-control mb-3" id="email" placeholder="Geef je mailadres in">
+      <p class="checkout-form__txt" >We sturen je een link met je registratiegegevens.<br>Zo kan je je account activeren en de app installeren..</p>
+      <div class="row mx-auto mb-3">
+        <button class="col me-1 py-3 btn checkoutbtn-bank" type="button"><i class="fa-solid fa-credit-card mx-1"></i>Kaart</button>
+        <button class="col ms-1 py-3 btn checkoutbtn-apple" type="button"><i class="fab fa-apple-pay"></i> Apple Pay</button>
+      </div>
+      <div class="mb-3">
+        <label for="bank" class="form-label d-none">Kies je bank:</label>
+        <select id="bank" class="form-select" aria-label="Kies je bank:">
+          <option selected>Kies je bank</option>
+          <option value="ING">ING</option>
+          <option value="KBC">KBC</option>
+          <option value="BNP Paribas">BNP Paribas</option>
+        </select>
+      </div>
+      <a class="formulier__button" href="confirmation.html">Betaal 9,90€</a>
+    </form>
+  </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+
+<footer class="footer__box py-2 mt-5">
+  <div class="container mx-auto footer__inhoud py-3">
+    <div class="row">
+      <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
+        <a href="index.html"><img class="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr."></a>
+      </div>
+      <div class="col-md-6  text-end align-self-center">
+        <p><a class="footer__download_button bshadow" href="404.html"><img
+                src="assets/black/Icon%20awesome-google-play.png"
+                alt="Playstore Icon">Download in de play store</a></p>
+        <p><a class="footer__download_button bshadow" href="404.html"><img
+                src="assets/black/Icon%20awesome-app-store-ios.png"
+                alt="Appstore Icon">Download in de app store</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <hr class="footer__breakline my-3 mx-auto py-0">
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer__contactgegevens col-md-3">
+        <h6>Contactgegevens</h6>
+        <p>Hogeschool PXL</p>
+        <p>Elfde-liniestraat 24</p>
+        <p>B-3500 HASSELT</p>
+        <p>GSM: 011 77 55 55</p>
+      </div>
+      <div class="col-md-6 align-self-center text-center d-sm-none d-md-block d-none d-sm-block ">
+        <a class="footer__button_contacteer bshadow" href="contact.html">Contacteer ons!</a>
+      </div>
+      <div class="col-md-3 text-end">
+        <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png" alt="Facebook logo"></a>
+        <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png" alt="LinkedIn logo"></a>
+        <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png" alt="Instagram logo"></a>
+        <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png" alt="Twitter logo"></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--Footer-->
+
+</body>
+</html>
