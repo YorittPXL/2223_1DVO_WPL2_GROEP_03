@@ -217,7 +217,7 @@
     color: #f4f4f9;
 }
 .pro__subheading {
-    color: #CCCCCC;
+    color: #f4f4f9;
     font-weight: 400;
     font-size: 1.2rem;
 }
@@ -519,6 +519,7 @@ button.accordion-button:focus{
 
 .tut__videoblock iframe {
     border-radius: 8px;
+    min-height: 30vh;
 }
 .tut__video {
     width: 100%;
