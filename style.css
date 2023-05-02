@@ -22,7 +22,6 @@
 }
 
 
-
 /*  --- UTILITIES ---
 
     #053DFF BUILDR BLUE
@@ -240,6 +239,16 @@
 
 .price_subtext {
     font-size: 1rem;
+}
+
+.pricecard {
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+.pricecard:hover {
+    opacity: 1.1;
 }
 
 /* --- CHECKOUT PAGE --- */
@@ -516,6 +525,8 @@ button.accordion-button:focus{
 }
 .formulier__button {
     text-align: center;
+    text-decoration: none;
+    color: #2B2A37;
     background-color: #F9CB33;
     border: none;
     border-radius: 999rem;
