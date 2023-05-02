@@ -53,15 +53,24 @@
 }
 .buildr-navbar a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: #f4f4f9;
 }
 .buildr-navbar a:hover{
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
+.buildr-navbar a:active {
+    font-weight: 600;
+}
+
+.activenav {
+    padding-bottom: .2rem;
+    border-bottom: 2px solid #f4f4f9;
+}
+
 .buildr-navbar__logo {
     height: 2rem;
     margin: 1rem auto;
