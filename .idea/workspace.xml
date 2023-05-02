@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Landing page - Ontdek meer Block">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Landing page - Recenties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,8 @@
       <workItem from="1682522977254" duration="51000" />
       <workItem from="1682525115179" duration="232000" />
       <workItem from="1682936989299" duration="1213000" />
-      <workItem from="1682954824732" duration="7031000" />
+      <workItem from="1682954824732" duration="7084000" />
+      <workItem from="1683009350326" duration="7433000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682962227261</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Landing page - Recenties">
+      <created>1682963154483</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682963154483</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +225,7 @@
     <MESSAGE value="Footer responsive" />
     <MESSAGE value="Navbar + footer final push" />
     <MESSAGE value="Landing page - Ontdek meer Block" />
-    <option name="LAST_COMMIT_MESSAGE" value="Landing page - Ontdek meer Block" />
+    <MESSAGE value="Landing page - Recenties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Landing page - Recenties" />
   </component>
 </project>
