@@ -262,11 +262,15 @@
 .pricecard {
     cursor: pointer;
     opacity: 0.9;
-
+    min-height: 20rem;
 }
 
 .pricecard:hover {
     opacity: 1.1;
+}
+
+.fa-ul {
+    height: 100px;
 }
 
 /* --- CHECKOUT PAGE --- */
