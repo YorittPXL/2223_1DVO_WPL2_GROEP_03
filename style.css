@@ -93,6 +93,10 @@
     font-weight: 400;
     font-size: 1.2rem;
 }
+.home-hero__img {
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0, 0.4));
+}
+
 .home-buildchatmatch {
     border-radius: 12px;
 }
@@ -197,6 +201,7 @@
 }
 .pro-hero__img {
     max-height: 800px;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0, 0.4));
 }
 
 .pro__header {
