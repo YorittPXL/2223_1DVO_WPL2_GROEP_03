@@ -765,6 +765,29 @@ button.accordion-button:focus{
     background-color: #FADA70;
 }
 
+/* BACK TO TOP */
+
+.top-button {
+    position: relative;
+}
+
+.top-button__link {
+    font-size: 1rem;
+    color: #ffdd32;
+    text-decoration: none;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 10;
+
+}
+
+.top-button__link:hover {
+    font-size: 1.02rem;
+    color: #FADA70;
+    text-decoration: none;
+}
+
 /*  --- MEDIA QUERIES ---   */
 
 @media screen and (max-width: 576px) {
