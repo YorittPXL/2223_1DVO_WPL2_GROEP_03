@@ -169,6 +169,15 @@
     max-height: 160px;
 }
 
+/* --- NIEUWSBRIEF ---  */
+
+.nieuwsbrief__box {
+    background-color: #f4f4f9;
+}
+.nieuwsbrief__bar {
+
+}
+
 
 /* --- PRO --- */
 
@@ -613,9 +622,36 @@ button.accordion-button:focus{
     transition: background-color 0.3s ease;
 }
 
+/* --- BLOGPOST --- */
 
 
-/* Footer */
+.blogpost__box {
+
+}
+.blogpost {
+    background-color: #f4f4f9;
+    padding: 2rem;
+}
+.blogpost__heading {
+    font-weight: 600;
+    font-size: 1.5rem;
+ }
+.blogpost__subheading {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.blogpost__txt {
+    font-weight: 400;
+    max-width: 75ch;
+}
+.blogpost__img {
+    display: flex;
+    max-height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+/* --- FOOTER --- */
 
 .footer__box {
     background-color: #053DFF;
