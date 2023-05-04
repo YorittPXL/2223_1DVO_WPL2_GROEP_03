@@ -173,6 +173,12 @@
 
 /* TESTIMONIALS / RECENSIES */
 
+.home-testimonials__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2B2A37;
+}
+
 .testimonial__card {
     background-color: #f4f4f9;
     border: 1px solid #CCCCCC;
@@ -444,6 +450,7 @@
     font-weight: 700;
     color: #2B2A37;
 }
+
 .accordion-button:not(.collapsed)::after {
     background-image: url("assets/black/plus-button.png");
 }
@@ -689,7 +696,7 @@ button.accordion-button:focus{
     align-content: center;
     background-color: #f4f4f9;
     color: #343a40;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     margin-top: 0.15rem;
     margin-bottom: 0.15rem;
     border-radius: 2rem;
@@ -697,7 +704,7 @@ button.accordion-button:focus{
 }
 .footer__download_button:hover {
     color: #707070;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 2rem;
     margin-top: 0.15rem;
     margin-bottom: 0.15rem;
     text-decoration: none;
@@ -730,7 +737,7 @@ button.accordion-button:focus{
     font-size: 1.2rem;
     background-color: #F3F3F3;
     color: #2B2A37;
-    padding: 0.5rem 2.5rem;
+    padding: 0.5rem 2rem;
     border-radius: 2rem;
     text-decoration: none;
 }

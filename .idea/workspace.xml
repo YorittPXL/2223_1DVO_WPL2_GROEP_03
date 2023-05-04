@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Contact page - adresgegevens aangevuld">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Feedback sprint review 3 : Spelfout emailadres -&gt; e-mailadres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildr_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/buildr_pro.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1682936989299" duration="1213000" />
       <workItem from="1682954824732" duration="7084000" />
       <workItem from="1683009350326" duration="7960000" />
-      <workItem from="1683208663201" duration="437000" />
+      <workItem from="1683208663201" duration="1478000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683033657601</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Feedback sprint review 3 : Spelfout emailadres -&gt; e-mailadres">
+      <created>1683209287251</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1683209287251</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="Landing page - Ontdek meer Block" />
     <MESSAGE value="Landing page - Recenties" />
     <MESSAGE value="Contact page - adresgegevens aangevuld" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact page - adresgegevens aangevuld" />
+    <MESSAGE value="Feedback sprint review 3 : Spelfout emailadres -&gt; e-mailadres" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feedback sprint review 3 : Spelfout emailadres -&gt; e-mailadres" />
   </component>
 </project>
