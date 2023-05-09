@@ -181,12 +181,12 @@
 
 .testimonial__card {
     background-color: #f4f4f9;
-    border: 1px solid #CCCCCC;
+    /*border: 1px solid #CCCCCC;*/
     max-width: 400px;
 }
 
 .testimonial__txt {
-    max-height: 160px;
+    font-size: 0.9rem;
 }
 
 /* --- NIEUWSBRIEF ---  */
@@ -881,7 +881,7 @@ button.accordion-button:focus{
 
 }
 
-/*
+
 @media screen and (min-width: 768px) {
     .blogpost {
         margin: 40px 0;
@@ -899,7 +899,6 @@ button.accordion-button:focus{
         margin-top: 40px;
     }
 }
-*/
 /*
 
 .confirmation-element__confirmation{
@@ -937,4 +936,3 @@ button.accordion-button:focus{
     height: 100%;
     margin: 0 20px 20px 20px;
 }
-*/
