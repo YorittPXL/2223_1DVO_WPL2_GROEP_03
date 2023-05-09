@@ -4,13 +4,13 @@ let selectedButton2 = null;
 document.getElementById("oneYearBtn2").addEventListener("click", function() {
     selectedButton2 = "oneYearBtn2";
     this.style.backgroundColor = "#F9CB33";
-    document.getElementById("oneMonthBtn2").style.backgroundColor = "white"
+    document.getElementById("oneMonthBtn2").style.backgroundColor = "#f4f4f9"
 });
 
 document.getElementById("oneMonthBtn2").addEventListener("click", function() {
     selectedButton2 = "oneMonthBtn2";
     this.style.backgroundColor = "#F9CB33";
-    document.getElementById("oneYearBtn2").style.backgroundColor = "white"});
+    document.getElementById("oneYearBtn2").style.backgroundColor = "#f4f4f9"});
 
 
 

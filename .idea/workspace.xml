@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Border aan iframe (Google maps)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutmonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutmonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Checkout met dynamische prijzen gemaakt met Javascript" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +77,7 @@
       <workItem from="1683277111699" duration="17000" />
       <workItem from="1683278637669" duration="90000" />
       <workItem from="1683548241179" duration="6889000" />
-      <workItem from="1683618276397" duration="10612000" />
+      <workItem from="1683618276397" duration="11533000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -238,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683553060414</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Checkout met dynamische prijzen gemaakt met Javascript">
+      <created>1683629066911</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1683629066911</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +276,7 @@
     <MESSAGE value="Feedback sprint review 3 : Heading toegevoegd bij Testimonials + Buttons gelijke grootte gegeven" />
     <MESSAGE value="Feedback sprint review 3 : Buttons omgewisseld" />
     <MESSAGE value="Border aan iframe (Google maps)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Border aan iframe (Google maps)" />
+    <MESSAGE value="Checkout met dynamische prijzen gemaakt met Javascript" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout met dynamische prijzen gemaakt met Javascript" />
   </component>
 </project>
