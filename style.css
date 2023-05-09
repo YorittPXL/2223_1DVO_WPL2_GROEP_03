@@ -331,6 +331,39 @@
     color: #f4f4f9;
 }
 
+.checkout-selection__block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.checkoutBtn1{
+    margin-bottom: 10px;
+    padding-top: .2rem;
+    padding-bottom:.2rem ;
+    background-color: #F9CB33;
+    font-weight: 500;
+    border-radius: 1rem;
+    border: none;
+}
+
+.checkoutBtn2{
+    margin-bottom: 10px;
+    padding-top: .2rem;
+    padding-bottom:.2rem ;
+    background-color: #f4f4f9;
+    font-weight: 500;
+    border-radius: 1rem;
+    border: none;
+}
+
+/*.checkout-btn__periode:active {*/
+/*    background-color: #F9CB33;*/
+/*}*/
+
 /* ORDER CONFIRMATION */
 
 .confirm-message__heading {
@@ -560,6 +593,7 @@ button.accordion-button:focus{
     font-size: .9rem;
 }
 .formulier__button {
+    display: inline;
     text-align: center;
     text-decoration: none;
     color: #2B2A37;
@@ -568,10 +602,15 @@ button.accordion-button:focus{
     border-radius: 999rem;
     padding: .4rem 1.2rem;
     font-weight: 600;
+    font-size: 1rem;
 }
+
 .formulier__button:hover {
     background-color: #FADA70;
 }
+
+a:link { text-decoration: none;}
+
 .contactformulier label {
     display: none;
 }
@@ -663,6 +702,7 @@ button.accordion-button:focus{
 .blogpost {
     background-color: #f4f4f9;
     padding: 2rem;
+    border-radius: 8px;
 }
 .blogpost__heading {
     font-weight: 600;
@@ -687,6 +727,7 @@ button.accordion-button:focus{
 
 .footer__box {
     background-color: #053DFF;
+
 }
 
 .footer__logo{
