@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Checkout color change">
-      <change beforePath="$PROJECT_DIR$/.idea/2223_1DVO_WPL2_GROEP_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2223_1DVO_WPL2_GROEP_03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Navigatiebar met hamburger menu gemaakt + toegevoegd aan alle pagina's. &#10;&#10;Footer sticky bottom op niet scrollbare pagina's.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogpost1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogpost1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildr_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/buildr_pro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutfree.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutfree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutmonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutmonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ondersteuning.html" beforeDir="false" afterPath="$PROJECT_DIR$/ondersteuning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +51,7 @@
       <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03\assets\white" />
       <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03\bootstrap" />
       <recent name="C:\Users\yorit\Documents\PXL\2022-2023 1DVO\Werkplekleren 2\GitHub\2223_1DVO_WPL2_GROEP_03\landing_page" />
     </key>
@@ -97,7 +81,7 @@
       <workItem from="1683278637669" duration="90000" />
       <workItem from="1683548241179" duration="6889000" />
       <workItem from="1683618276397" duration="22456000" />
-      <workItem from="1684144733871" duration="13780000" />
+      <workItem from="1684144733871" duration="14271000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -267,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683630125839</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Navigatiebar met hamburger menu gemaakt + toegevoegd aan alle pagina's. &#10;&#10;Footer sticky bottom op niet scrollbare pagina's.">
+      <created>1684162163891</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1684162163891</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +296,7 @@
     <MESSAGE value="Border aan iframe (Google maps)" />
     <MESSAGE value="Checkout met dynamische prijzen gemaakt met Javascript" />
     <MESSAGE value="Checkout color change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout color change" />
+    <MESSAGE value="Navigatiebar met hamburger menu gemaakt + toegevoegd aan alle pagina's. &#10;&#10;Footer sticky bottom op niet scrollbare pagina's." />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigatiebar met hamburger menu gemaakt + toegevoegd aan alle pagina's. &#10;&#10;Footer sticky bottom op niet scrollbare pagina's." />
   </component>
 </project>
