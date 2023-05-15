@@ -463,6 +463,13 @@
     font-weight: 900;
     color: #F9CB33;
 }
+/*   ---SOCIAL EMBED---     */
+
+.tagembed-container{
+    width:75%;
+    height:100%;
+    overflow: auto;
+}
 
 /*   --- FAQ ---    */
 
