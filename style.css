@@ -315,12 +315,12 @@ button.navbar-toggler {
 
 .testimonial__card {
     background-color: #f4f4f9;
-    border: 1px solid #CCCCCC;
+    /*border: 1px solid #CCCCCC;*/
     max-width: 400px;
 }
 
 .testimonial__txt {
-    max-height: 160px;
+    font-size: 0.9rem;
 }
 
 /* --- NIEUWSBRIEF ---  */
@@ -624,6 +624,13 @@ button.navbar-toggler {
 .about__bullet {
     font-weight: 900;
     color: #F9CB33;
+}
+/*   ---SOCIAL EMBED---     */
+
+.tagembed-container{
+    width:75%;
+    height:100%;
+    overflow: auto;
 }
 
 /*   --- FAQ ---    */
@@ -1149,7 +1156,7 @@ a:link {
 
 }
 
-/*
+
 @media screen and (min-width: 768px) {
     .blogpost {
         margin: 40px 0;
@@ -1167,7 +1174,6 @@ a:link {
         margin-top: 40px;
     }
 }
-*/
 /*
 
 .confirmation-element__confirmation{
@@ -1205,4 +1211,3 @@ a:link {
     height: 100%;
     margin: 0 20px 20px 20px;
 }
-*/
