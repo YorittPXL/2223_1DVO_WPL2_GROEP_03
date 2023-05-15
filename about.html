@@ -17,27 +17,32 @@
 
 <!-- Navigatiebalk (Logo links uitgelijnd) -->
 
-<nav class="buildr-navbar">
-    <div class="container mx-auto ">
-        <div class="row justify-content-between">
-            <div class="col-md-4">
-                <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
-            </div>
-            <div class="col-md-auto justify-content-center align-self-center">
-                <a href="buildr_pro.html">Pro</a>
-            </div>
-            <div class="col-md-auto justify-content-center align-self-center">
-                <a class="activenav" href="about.html">Over ons</a>
-            </div>
-            <div class="col-md-auto justify-content-center align-self-center">
-                <a href="blog.html">Blog</a>
-            </div>
-            <div class="col-md-auto justify-content-center align-self-center">
-                <a href="ondersteuning.html">Ondersteuning</a>
-            </div>
-            <div class="col-md-auto justify-content-center align-self-center">
-                <a href="contact.html">Contact</a>
-            </div>
+<nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+        <div class="col-md-4 col-sm-2 text-center">
+            <a href="index.html"><img src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr." class="buildr-navbar__logo"></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-8 col-sm-10" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="buildr_pro.html">Pro</a>
+                </li>
+                <li class="nav-item">
+                    <a id="activenav" class="nav-link" href="about.html">Over ons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ondersteuning.html">Ondersteuning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>

@@ -7,7 +7,8 @@
     <link rel="icon" type="image/x-icon" href="assets/buildr/buildr_logoicon_white.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -21,30 +22,38 @@
 
     <!-- Navigatiebalk (Logo links uitgelijnd) -->
 
-    <nav class="buildr-navbar">
-        <div class="container mx-auto ">
-            <div class="row justify-content-between">
-                <div class="col-md-4">
-                    <a href="index.html"><img class="buildr-navbar__logo" src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."></a>
-                </div>
-                <div class="col-md-auto justify-content-center align-self-center">
-                    <a href="buildr_pro.html">Pro</a>
-                </div>
-                <div class="col-md-auto justify-content-center align-self-center">
-                    <a href="about.html">Over ons</a>
-                </div>
-                <div class="col-md-auto justify-content-center align-self-center">
-                    <a class="activenav" href="blog.html">Blog</a>
-                </div>
-                <div class="col-md-auto justify-content-center align-self-center">
-                    <a href="ondersteuning.html">Ondersteuning</a>
-                </div>
-                <div class="col-md-auto justify-content-center align-self-center">
-                    <a href="contact.html">Contact</a>
-                </div>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <div class="col-md-4 col-sm-2 text-center">
+                <a href="index.html"><img src="assets/buildr/buildr_logofull_white.png" alt="Logo Buildr."
+                                          class="buildr-navbar__logo"></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-md-8 col-sm-10" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="buildr_pro.html">Pro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Over ons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="activenav" class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ondersteuning.html">Ondersteuning</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- BLOG HEADER -->
 
@@ -56,7 +65,7 @@
 
     <div class="container">
 
-<!-- EERSTE RIJ -->
+        <!-- EERSTE RIJ -->
         <!-- BLOGCARD 1-->
         <div class="row mx-auto justify-content-evenly mt-5 g-4">
             <div class="col-10 col-lg-5 blog-card-sm bshadow p-2">
@@ -66,12 +75,16 @@
                     </div>
                     <div class="col-8 mt-2 hfix">
                         <h2 class="blog-card-sm__heading">Werknemer in de spotlight.</h2>
-                        <p class="blog-card-sm__txt overflow-auto">Onze werknemer in de spotlight van deze maand is projectmanager Sara Peters.
-                            Sara is een jonge en enthousiaste werknemer bij Bouwbedrijf X. Hoewel ze nog maar kort bij het bedrijf werkt, heeft ze zichzelf al onmisbaar gemaakt.</p>
+                        <p class="blog-card-sm__txt overflow-auto">Onze werknemer in de spotlight van deze maand is
+                            projectmanager Sara Peters.
+                            Sara is een jonge en enthousiaste werknemer bij Bouwbedrijf X. Hoewel ze nog maar kort bij
+                            het bedrijf werkt, heeft ze zichzelf al onmisbaar gemaakt.</p>
                     </div>
                     <div class="row justify-content-center">
                         <hr class="col-10 mb-2">
-                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html"><div>Lees meer</div></a>
+                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html">
+                            <div>Lees meer</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -85,11 +98,15 @@
                     </div>
                     <div class="col-8 mt-2 hfix px-2">
                         <h2 class="blog-card-sm__heading">Bedrijf in de spotlight, april 2023</h2>
-                        <p class="blog-card-sm__txt overflow-auto">Het bedrijf in de spotlight van April 2023 is EcoBuild.<br>EcoBuild is een duurzaam bouwbedrijf dat zich richt op het verminderen van de impact van de bouwsector op het milieu.</p>
+                        <p class="blog-card-sm__txt overflow-auto">Het bedrijf in de spotlight van April 2023 is
+                            EcoBuild.<br>EcoBuild is een duurzaam bouwbedrijf dat zich richt op het verminderen van de
+                            impact van de bouwsector op het milieu.</p>
                     </div>
                     <div class="row justify-content-center">
                         <hr class="col-10 mb-2">
-                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html"><div>Lees meer</div></a>
+                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html">
+                            <div>Lees meer</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -102,11 +119,16 @@
                     </div>
                     <div class="col-8 mt-2 hfix px-2">
                         <h2 class="blog-card-sm__heading">Mijn weg naar de perfecte job</h2>
-                        <p class="blog-card-sm__txt overflow-auto">“Ik ben zo dankbaar dat ik Buildr. heb ontdekt. Als iemand die altijd in de bouwsector wilde werken, was het voor mij een hele uitdaging om de juiste baan te vinden."<br>Lees hier hoe Tom van Den Berg dankzij Buildr. zijn droomjob heeft gevonden.</p>
+                        <p class="blog-card-sm__txt overflow-auto">“Ik ben zo dankbaar dat ik Buildr. heb ontdekt. Als
+                            iemand die altijd in de bouwsector wilde werken, was het voor mij een hele uitdaging om de
+                            juiste baan te vinden."<br>Lees hier hoe Tom van Den Berg dankzij Buildr. zijn droomjob
+                            heeft gevonden.</p>
                     </div>
                     <div class="row justify-content-center">
                         <hr class="col-10 mb-2">
-                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html"><div>Lees meer</div></a>
+                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html">
+                            <div>Lees meer</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -119,11 +141,15 @@
                     </div>
                     <div class="col-8 mt-2 hfix  px-2">
                         <h2 class="blog-card-sm__heading">Werknemer in de spotlight.</h2>
-                        <p class="blog-card-sm__txt overflow-auto">Onze werknemer in de spotlight van deze maand is projectmanager Sara Peters. Sara is een jonge en enthousiaste werknemer bij Bouwbedrijf X. Hoewel ze nog maar kort bij het bedrijf werkt, heeft ze zichzelf al onmisbaar gemaakt.</p>
+                        <p class="blog-card-sm__txt overflow-auto">Onze werknemer in de spotlight van deze maand is
+                            projectmanager Sara Peters. Sara is een jonge en enthousiaste werknemer bij Bouwbedrijf X.
+                            Hoewel ze nog maar kort bij het bedrijf werkt, heeft ze zichzelf al onmisbaar gemaakt.</p>
                     </div>
                     <div class="row justify-content-center">
                         <hr class="col-10 mb-2 ">
-                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html"><div>Lees meer</div></a>
+                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html">
+                            <div>Lees meer</div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -136,20 +162,26 @@
                     </div>
                     <div class="col-7 mt-2 hfix  px-2">
                         <h2 class="blog-card-sm__heading">Buildr @ Bouwbeurs 2023.</h2>
-                        <p class="blog-card-sm__txt overflow-auto">Buildr. zal aanwezig zijn op de Bouwbeurs 2023, de grootste beurs in de bouwsector van het jaar.
-                            Het evenement vindt plaats in de Jaarbeurs in Utrecht en duurt vier dagen. Buildr. zal een stand hebben waar bezoekers meer informatie kunnen krijgen over onze app en diensten, en onze recruiters zullen aanwezig zijn om potentiële kandidaten te ontmoeten en hen te helpen hun droombaan in de bouwsector te vinden.
+                        <p class="blog-card-sm__txt overflow-auto">Buildr. zal aanwezig zijn op de Bouwbeurs 2023, de
+                            grootste beurs in de bouwsector van het jaar.
+                            Het evenement vindt plaats in de Jaarbeurs in Utrecht en duurt vier dagen. Buildr. zal een
+                            stand hebben waar bezoekers meer informatie kunnen krijgen over onze app en diensten, en
+                            onze recruiters zullen aanwezig zijn om potentiële kandidaten te ontmoeten en hen te helpen
+                            hun droombaan in de bouwsector te vinden.
                             Voor verdere informatie in verband met de Bouwbeurs, klik op lees meer.</p>
                     </div>
                     <div class="row justify-content-center">
                         <hr class="col-10 mb-2">
-                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html"><div>Lees meer</div></a>
+                        <a class="text-center col-4 col-md-3 lees-meer-btn" href="blogpost1.html">
+                            <div>Lees meer</div>
+                        </a>
                     </div>
                 </div>
             </div>
             <!-- EINDE ROW / CONTAINER -->
         </div>
     </div>
-            <!-- EINDE CONTAINER -->
+    <!-- EINDE CONTAINER -->
 
     <!-- FOOTER -->
 
@@ -158,7 +190,8 @@
         <div class="container mx-auto footer__inhoud py-3">
             <div class="row">
                 <div class="col-md-6 col-sm-4 justify-content-center align-self-center ">
-                    <a href="index.html"><img class="footer__logo" src="assets/buildr/buildr_logofull_white.png" alt="logo buildr."></a>
+                    <a href="index.html"><img class="footer__logo" src="assets/buildr/buildr_logofull_white.png"
+                                              alt="logo buildr."></a>
                 </div>
                 <div class="col-md-6  text-end align-self-center">
                     <p><a class="footer__download_button bshadow" href="404.html"><img
@@ -186,10 +219,14 @@
                     <a class="footer__button_contacteer bshadow" href="contact.html">Contacteer ons!</a>
                 </div>
                 <div class="col-md-3 text-end">
-                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png" alt="Facebook logo"></a>
-                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png" alt="LinkedIn logo"></a>
-                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png" alt="Instagram logo"></a>
-                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png" alt="Twitter logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-facebook-square.png"
+                                     alt="Facebook logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-linkedin.png"
+                                     alt="LinkedIn logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20simple-instagram.png"
+                                     alt="Instagram logo"></a>
+                    <a href="#"><img class="footer__icon bshadow" src="assets/white/Icon%20awesome-twitter-square.png"
+                                     alt="Twitter logo"></a>
                 </div>
             </div>
         </div>

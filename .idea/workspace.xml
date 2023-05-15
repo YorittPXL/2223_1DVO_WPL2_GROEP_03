@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Checkout met dynamische prijzen gemaakt met Javascript" />
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Checkout color change">
+      <change beforePath="$PROJECT_DIR$/.idea/2223_1DVO_WPL2_GROEP_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/2223_1DVO_WPL2_GROEP_03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogpost1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogpost1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildr_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/buildr_pro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkoutfree.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutfree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkoutmonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutmonth.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmation.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ondersteuning.html" beforeDir="false" afterPath="$PROJECT_DIR$/ondersteuning.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +96,8 @@
       <workItem from="1683277111699" duration="17000" />
       <workItem from="1683278637669" duration="90000" />
       <workItem from="1683548241179" duration="6889000" />
-      <workItem from="1683618276397" duration="11533000" />
+      <workItem from="1683618276397" duration="22456000" />
+      <workItem from="1684144733871" duration="13780000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -240,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683629066911</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Checkout color change">
+      <created>1683630125839</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683630125839</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +304,7 @@
     <MESSAGE value="Feedback sprint review 3 : Buttons omgewisseld" />
     <MESSAGE value="Border aan iframe (Google maps)" />
     <MESSAGE value="Checkout met dynamische prijzen gemaakt met Javascript" />
-    <option name="LAST_COMMIT_MESSAGE" value="Checkout met dynamische prijzen gemaakt met Javascript" />
+    <MESSAGE value="Checkout color change" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checkout color change" />
   </component>
 </project>
