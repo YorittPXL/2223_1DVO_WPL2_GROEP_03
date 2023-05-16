@@ -487,7 +487,6 @@ button.navbar-toggler {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-bottom: 1rem;
-    color: black;
 
 }
 
@@ -499,6 +498,7 @@ button.navbar-toggler {
     font-weight: 500;
     border-radius: 1rem;
     border: none;
+    color: black;
 }
 
 .checkoutBtn2 {
@@ -509,6 +509,7 @@ button.navbar-toggler {
     font-weight: 500;
     border-radius: 1rem;
     border: none;
+    color: black;
 }
 
 /*.checkout-btn__periode:active {*/
