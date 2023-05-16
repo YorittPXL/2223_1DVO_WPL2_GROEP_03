@@ -948,7 +948,7 @@ footer p{
 .footer__download_button {
     font-size: .9rem;
     font-weight: 600;
-    display: inline-flex;
+    display: inline-block;
     align-content: center;
     background-color: #f4f4f9;
     color: #343a40;
