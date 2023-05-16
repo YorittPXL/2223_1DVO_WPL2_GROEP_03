@@ -14,5 +14,6 @@
     <orderEntry type="library" name="3e2da0ee3d" level="application" />
     <orderEntry type="library" name="jquery-3.6.0" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="embed" level="application" />
   </component>
 </module>

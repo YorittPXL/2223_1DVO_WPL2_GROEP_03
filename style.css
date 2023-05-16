@@ -584,24 +584,25 @@ button.navbar-toggler {
 }
 
 .store__button--small {
-    font-size: .8rem;
+    display: inline-block;
+    font-size: 22px;
     font-weight: 600;
     background-color: #F9CB33;
     color: #343a40;
-    padding: 0.6rem 1.2rem;
+    padding: 0.2rem 4rem;
     border-radius: 2rem;
     text-decoration: none;
 }
 
 .store__button--small:hover {
-    font-size: .82rem;
     background-color: #FADA70;
     color: #343a40;
+    padding: 0.2rem 4rem;
 }
 
 .store__icon--small {
-    height: 1rem;
-    margin-right: .5rem;
+    height: 1.4rem;
+    margin-right: .7rem;
 }
 
 /* --- ABOUT MINI NAV --- */
@@ -929,6 +930,10 @@ a:link {
 
 /* --- FOOTER --- */
 
+footer p{
+    margin-bottom: 0;
+}
+
 .footer__box {
     background-color: #053DFF;
 
@@ -947,18 +952,18 @@ a:link {
     align-content: center;
     background-color: #f4f4f9;
     color: #343a40;
-    padding: 0.5rem 2rem;
+    padding: 0.3rem 2.7rem;
     margin-top: 0.15rem;
-    margin-bottom: 0.15rem;
+    margin-bottom: .3rem;
     border-radius: 2rem;
     text-decoration: none;
 }
 
 .footer__download_button:hover {
     color: #707070;
-    padding: 0.5rem 2rem;
+    padding: 0.3rem 2.7rem;
     margin-top: 0.15rem;
-    margin-bottom: 0.15rem;
+    margin-bottom: 0.3rem;
     text-decoration: none;
 }
 
@@ -978,6 +983,7 @@ a:link {
 }
 
 .footer__contactgegevens h6 {
+    margin-top: 1px;
     font-size: 1rem;
     font-weight: 600;
     color: #f4f4f9;
@@ -990,19 +996,29 @@ a:link {
 }
 
 .footer__button_contacteer {
+    display: inline-flex;
     font-weight: 600;
     font-size: 1.2rem;
     background-color: #F3F3F3;
     color: #2B2A37;
-    padding: 0.5rem 2rem;
+    padding: 0.15rem 2.5rem;
+    margin-top: 1px;
     border-radius: 2rem;
     text-decoration: none;
 }
 
-.footer__icon {
-    width: 2rem;
-    margin: 1px;
+.footer__button_contacteer:hover{
+    color: #707070;
+    text-decoration: none;
 }
+
+
+.white-icon{
+    color: white;
+    font-size: 200%;
+    padding-left: 6px;
+}
+
 
 
 #footer-sticky_bottom{
@@ -1060,7 +1076,7 @@ a:link {
     background-color: #F9CB33;
     border: none;
     border-radius: 2rem;
-    padding: .4rem 1.2rem;
+    padding: .4rem 3rem;
 
 }
 
@@ -1101,10 +1117,16 @@ a:link {
 }
 
 @media screen and (max-width: 768px) {
+
+    footer .row{
+        justify-content: center;
+    }
+
     .ondersteuning {
         margin-top: 6%;
         margin-bottom: 4rem;
     }
+
 
     .footer__inhoud {
         text-align-last: center;
@@ -1114,11 +1136,11 @@ a:link {
         text-align: center;
     }
 
-    .footer__icon {
-        margin-top: 1rem;
+    .footer__download_button {
+        margin-top: 8px;
     }
 
-    .footer__download_button {
+    .footer__download_button:hover {
         margin-top: 8px;
     }
 
