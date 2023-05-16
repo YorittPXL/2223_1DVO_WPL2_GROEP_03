@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Footer : Fix test" />
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Blog page : Fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +84,7 @@
       <workItem from="1683618276397" duration="22456000" />
       <workItem from="1684144733871" duration="14271000" />
       <workItem from="1684162553749" duration="893000" />
-      <workItem from="1684219996975" duration="11823000" />
+      <workItem from="1684219996975" duration="12524000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -300,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684233622861</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Nieuwsbrief form : Fix">
+      <created>1684233963894</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684233963894</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Blog page : Fix">
+      <created>1684234175836</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1684234175836</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,8 +335,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Netflify index.html push" />
-    <MESSAGE value="index footer / navbar push" />
     <MESSAGE value="Refactor index file voor netlify" />
     <MESSAGE value="Bootstrap files added" />
     <MESSAGE value="Mappen aangemaakt" />
@@ -343,6 +358,8 @@
     <MESSAGE value="Checkout pages : Text color change (black)" />
     <MESSAGE value="Footer : Herwerkt naar de nieuwe versie + responsive. Toegepast op iedere web-pagina." />
     <MESSAGE value="Footer : Fix test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer : Fix test" />
+    <MESSAGE value="Nieuwsbrief form : Fix" />
+    <MESSAGE value="Blog page : Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog page : Fix" />
   </component>
 </project>
