@@ -527,22 +527,27 @@ button.navbar-toggler {
 }
 
 .confirm-message {
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
-.confirm__ondersteuning-card {
-    background-color: #698AFF;
-    text-decoration: none;
-    color: #343a40;
-}
-
-.confirm__ondersteuning-card {
-    background-color: #d7deff;
-}
 
 .confirmation__infoblock {
     margin-bottom: 4rem;
 }
+
+.confirm__button{
+    display: inline-block;
+    color: black;
+    background-color: #F9CB33;
+    padding: .3rem 3rem;
+    border-radius: 4rem;
+    margin-bottom: 8px;
+}
+
+.confirm__button:hover{
+    background-color: #FADA70;
+}
+
 
 /* --- ABOUT --- */
 
@@ -1060,7 +1065,7 @@ footer p{
 }
 
 .errormessage {
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
 .nieuwsbrief__form input[type=email] {
