@@ -850,6 +850,7 @@ a:link {
 }
 
 .lees-meer-btn {
+    display: inline-block;
     font-size: .8rem;
     font-weight: 600;
     text-align: center;
