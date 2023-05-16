@@ -1071,6 +1071,7 @@ footer p{
 }
 
 .nieuwsbrief__button {
+    color: black;
     font-weight: 600;
     text-align: center;
     background-color: #F9CB33;

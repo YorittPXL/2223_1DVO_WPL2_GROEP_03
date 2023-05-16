@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Footer : Herwerkt naar de nieuwe versie + responsive. Toegepast op iedere web-pagina.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Footer : Fix test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1683618276397" duration="22456000" />
       <workItem from="1684144733871" duration="14271000" />
       <workItem from="1684162553749" duration="893000" />
-      <workItem from="1684219996975" duration="11516000" />
+      <workItem from="1684219996975" duration="11823000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -296,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684232070267</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Footer : Fix test">
+      <created>1684233622861</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684233622861</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +318,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dit is een test push" />
     <MESSAGE value="Netflify index.html push" />
     <MESSAGE value="index footer / navbar push" />
     <MESSAGE value="Refactor index file voor netlify" />
@@ -339,6 +342,7 @@
     <MESSAGE value="Responsive fix Pro-page" />
     <MESSAGE value="Checkout pages : Text color change (black)" />
     <MESSAGE value="Footer : Herwerkt naar de nieuwe versie + responsive. Toegepast op iedere web-pagina." />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer : Herwerkt naar de nieuwe versie + responsive. Toegepast op iedere web-pagina." />
+    <MESSAGE value="Footer : Fix test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer : Fix test" />
   </component>
 </project>
