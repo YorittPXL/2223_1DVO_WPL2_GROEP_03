@@ -114,6 +114,10 @@ button.navbar-toggler {
     border-bottom: 1px solid #CCCCCC;
 }
 
+.nav-logo_uitlijning{
+    padding-left: 3.5vw;
+}
+
 
 
 .nav-link:focus {
@@ -262,7 +266,8 @@ button.navbar-toggler {
 
 .home-bcm__txt {
     font-size: 1rem;
-    color: #CCCCCC;
+    /*color: #CCCCCC;*/
+    color: #FFFFFF;
 }
 
 .home-bcm__img {
