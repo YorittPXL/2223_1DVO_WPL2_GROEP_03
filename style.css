@@ -709,13 +709,12 @@ button.accordion-button:focus {
 .ondersteuning__card {
     background-color: #fcfcfc;
     text-decoration: none;
-    color: #053DFF;
+    color: #2b2a37;
 }
 
 .ondersteuning__card:hover {
     background-color: #f5f5f5;
     text-decoration: none;
-    color: #053DFF;
 }
 
 .ondersteuning__icon {

@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Navbar uitlijning aangepast&#10;Match, chat, build fix&#10;Text-color">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogpost1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogpost1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildr_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/buildr_pro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutfree.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutfree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutmonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutmonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ondersteuning.html" beforeDir="false" afterPath="$PROJECT_DIR$/ondersteuning.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +88,7 @@
       <workItem from="1684307480614" duration="602000" />
       <workItem from="1684320784141" duration="1233000" />
       <workItem from="1684750533195" duration="1600000" />
-      <workItem from="1684758622680" duration="6068000" />
+      <workItem from="1684758622680" duration="8196000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -382,7 +370,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684752137179</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina.">
+      <created>1684765416040</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684765416040</updated>
+    </task>
+    <task id="LOCAL-00042" summary="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina.">
+      <created>1684765440823</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684765440823</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Navigatiebar (niet responsive)" />
     <MESSAGE value="Assets map aangevuld" />
     <MESSAGE value="Footer responsive" />
     <MESSAGE value="Navbar + footer final push" />
@@ -425,6 +426,7 @@
     <MESSAGE value="Footer sticky fix" />
     <MESSAGE value="Footer : Position absulote -&gt; bottom: 0;" />
     <MESSAGE value="Navbar uitlijning aangepast&#10;Match, chat, build fix&#10;Text-color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar uitlijning aangepast&#10;Match, chat, build fix&#10;Text-color" />
+    <MESSAGE value="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina." />
+    <option name="LAST_COMMIT_MESSAGE" value="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina." />
   </component>
 </project>
