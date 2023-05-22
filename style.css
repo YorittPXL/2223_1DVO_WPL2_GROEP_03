@@ -68,9 +68,9 @@ div.container-fluid {
     text-decoration: none;
 }
 
-.nav-link:active {
-    background-color: #0939e0;
-}
+/*.nav-link:active {*/
+/*    background-color: #0939e0;*/
+/*}*/
 
 
 .navbar-nav {
@@ -556,6 +556,7 @@ button.navbar-toggler {
 
 /* --- ABOUT --- */
 
+
 .about-header__img {
     width: 100%;
     height: auto;
@@ -706,15 +707,15 @@ button.accordion-button:focus {
 }
 
 .ondersteuning__card {
-    background-color: #698AFF;
+    background-color: #fcfcfc;
     text-decoration: none;
-    color: #f4f4f9;
+    color: #053DFF;
 }
 
 .ondersteuning__card:hover {
-    background-color: #B4C4FF;
+    background-color: #f5f5f5;
     text-decoration: none;
-    color: #f4f4f9;
+    color: #053DFF;
 }
 
 .ondersteuning__icon {
