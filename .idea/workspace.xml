@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Spelfouten verbeterd.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildr_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/buildr_pro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutmonth.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutmonth.js" afterDir="false" />
-    </list>
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +87,7 @@
       <workItem from="1684320784141" duration="1233000" />
       <workItem from="1684750533195" duration="1600000" />
       <workItem from="1684758622680" duration="8311000" />
-      <workItem from="1684826273397" duration="9265000" />
+      <workItem from="1684826273397" duration="9649000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -409,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684842630076</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="push">
+      <created>1684849013405</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1684849013405</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +429,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Landing page - Ontdek meer Block" />
     <MESSAGE value="Landing page - Recenties" />
     <MESSAGE value="Contact page - adresgegevens aangevuld" />
     <MESSAGE value="Feedback sprint review 3 : Spelfout emailadres -&gt; e-mailadres" />
@@ -452,6 +453,7 @@
     <MESSAGE value="Ondersteuning icon color -&gt; #2b2a37" />
     <MESSAGE value="Footer bottom" />
     <MESSAGE value="Spelfouten verbeterd." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spelfouten verbeterd." />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
 </project>
