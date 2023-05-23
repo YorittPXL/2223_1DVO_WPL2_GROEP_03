@@ -1131,6 +1131,10 @@ footer p{
 
 @media screen and (max-width: 768px) {
 
+    .verzend_knop_center{
+        text-align-last: center;
+    }
+
     footer .row{
         justify-content: center;
     }

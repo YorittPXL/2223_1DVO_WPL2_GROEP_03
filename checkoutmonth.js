@@ -23,17 +23,17 @@ let abonnementPrijs3 = document.getElementById("abonnementPrijs3");
 let abonnementPrijs4 = document.getElementById("abonnementPrijs4");
 
 // Hier word de tekst in het h3 element gezet.
-abonnementPrijs3.textContent = "€ 9,90";
+abonnementPrijs3.textContent = "€ 9,90 / maand";
 abonnementPrijs4.textContent = "Betaal €9,90";
 
 // Voeg een click event listener toe aan de knoppen zodat prijzen veranderen
 oneYearBtn2.addEventListener("click", () => {
-    abonnementPrijs3.textContent = "€ 9,90";
+    abonnementPrijs3.textContent = "€ 9,90 / maand";
     abonnementPrijs4.textContent = "Betaal €9,90";
 });
 
 oneMonthBtn2.addEventListener("click", () => {
-    abonnementPrijs3.textContent = "€ 99,90";
+    abonnementPrijs3.textContent = "€ 99,90 / jaar";
     abonnementPrijs4.textContent = "Betaal €99,90";
 });
 
