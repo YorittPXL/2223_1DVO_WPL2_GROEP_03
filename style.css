@@ -1030,16 +1030,13 @@ footer p{
 
 
 
-#footer-sticky_bottom{
+
+.checkout__footer_bottom{
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+    margin: auto;
 
-.checkout__footer_bottom{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
 @media (max-width: 767px) {

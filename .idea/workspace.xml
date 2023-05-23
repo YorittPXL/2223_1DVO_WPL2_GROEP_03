@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina.">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Ondersteuning icon color -&gt; #2b2a37">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkoutfree.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutfree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,8 @@
       <workItem from="1684307480614" duration="602000" />
       <workItem from="1684320784141" duration="1233000" />
       <workItem from="1684750533195" duration="1600000" />
-      <workItem from="1684758622680" duration="8196000" />
+      <workItem from="1684758622680" duration="8311000" />
+      <workItem from="1684826273397" duration="2993000" />
     </task>
     <task id="LOCAL-00001" summary="Dit is een test push">
       <created>1681743959823</created>
@@ -384,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684765440823</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Ondersteuning icon color -&gt; #2b2a37">
+      <created>1684768857295</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684768857295</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assets map aangevuld" />
     <MESSAGE value="Footer responsive" />
     <MESSAGE value="Navbar + footer final push" />
     <MESSAGE value="Landing page - Ontdek meer Block" />
@@ -427,6 +437,7 @@
     <MESSAGE value="Footer : Position absulote -&gt; bottom: 0;" />
     <MESSAGE value="Navbar uitlijning aangepast&#10;Match, chat, build fix&#10;Text-color" />
     <MESSAGE value="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina." />
-    <option name="LAST_COMMIT_MESSAGE" value="- Navbar uitlijning toegepast op iedere pagina + Hover statement disabled&#10;- Ondersteuningspagina knoppen aangepast&#10;- &quot;Waarom Buildr?&quot; header toegevoegd aan de About pagina." />
+    <MESSAGE value="Ondersteuning icon color -&gt; #2b2a37" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ondersteuning icon color -&gt; #2b2a37" />
   </component>
 </project>
