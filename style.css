@@ -643,6 +643,10 @@ button.navbar-toggler {
     overflow: auto;
 }
 
+.tagembed-container > div {
+    border: none;
+}
+
 /*   --- FAQ ---    */
 
 .faq-header__subheading,
@@ -683,6 +687,15 @@ button.navbar-toggler {
     max-width: 80ch;
 }
 
+.faq-header{
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+}
+
+.accordion_block{
+    margin-bottom: 8rem;
+}
+
 /* BUTTONS VAN FAQ MET PLUS SYMBOOL */
 /* NOT COLLAPSED */
 
@@ -701,8 +714,8 @@ button.accordion-button:focus {
 */
 
 .ondersteuning {
-    margin-top: 10%;
-    margin-bottom: 8rem;
+    margin-top: 8rem;
+    margin-bottom: 10rem;
 }
 
 .ondersteuning__card {
