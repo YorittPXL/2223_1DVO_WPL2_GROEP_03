@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Bij de index (Match, chat build) &amp; pro page (Smeed een band) heb ik de spacing wat vergroot zodat het beter te zien is welke tekst bij welke image hoort zoals Nicolas zei.">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Over ons Pagina &#10;- Section &quot;Waarom buildr?&quot; volledige breedte van scherm in beslag laten nemen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials.html" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +92,7 @@
       <workItem from="1684758622680" duration="8311000" />
       <workItem from="1684826273397" duration="10726000" />
       <workItem from="1685003860982" duration="2378000" />
-      <workItem from="1685188966736" duration="7612000" />
-    </task>
-    <task id="LOCAL-00003" summary="Dit is een test push">
-      <created>1681744072289</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1681744072289</updated>
+      <workItem from="1685188966736" duration="9511000" />
     </task>
     <task id="LOCAL-00004" summary="Netflify index.html push">
       <created>1681801610796</created>
@@ -437,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685195018440</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Over ons Pagina &#10;- Section &quot;Waarom buildr?&quot; volledige breedte van scherm in beslag laten nemen.">
+      <created>1685196888928</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1685196888928</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feedback sprint review 3 : Heading toegevoegd bij Testimonials + Buttons gelijke grootte gegeven" />
     <MESSAGE value="Feedback sprint review 3 : Buttons omgewisseld" />
     <MESSAGE value="Border aan iframe (Google maps)" />
     <MESSAGE value="Checkout met dynamische prijzen gemaakt met Javascript" />
@@ -480,6 +479,7 @@
     <MESSAGE value="Card border" />
     <MESSAGE value="Footer bottom fix" />
     <MESSAGE value="Bij de index (Match, chat build) &amp; pro page (Smeed een band) heb ik de spacing wat vergroot zodat het beter te zien is welke tekst bij welke image hoort zoals Nicolas zei." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bij de index (Match, chat build) &amp; pro page (Smeed een band) heb ik de spacing wat vergroot zodat het beter te zien is welke tekst bij welke image hoort zoals Nicolas zei." />
+    <MESSAGE value="Over ons Pagina &#10;- Section &quot;Waarom buildr?&quot; volledige breedte van scherm in beslag laten nemen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Over ons Pagina &#10;- Section &quot;Waarom buildr?&quot; volledige breedte van scherm in beslag laten nemen." />
   </component>
 </project>
