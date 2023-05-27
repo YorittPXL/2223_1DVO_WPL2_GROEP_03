@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Card border">
+    <list default="true" id="68e5cd5d-8552-490a-9520-daaa18aaa73b" name="Changes" comment="Footer bottom fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutfree.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutfree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkoutmonth.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkoutmonth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildr_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/buildr_pro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,14 +95,7 @@
       <workItem from="1684758622680" duration="8311000" />
       <workItem from="1684826273397" duration="10726000" />
       <workItem from="1685003860982" duration="2378000" />
-      <workItem from="1685188966736" duration="2888000" />
-    </task>
-    <task id="LOCAL-00001" summary="Dit is een test push">
-      <created>1681743959823</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1681743959823</updated>
+      <workItem from="1685188966736" duration="5791000" />
     </task>
     <task id="LOCAL-00002" summary="Dit is een test push">
       <created>1681743982371</created>
@@ -441,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685189010638</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Footer bottom fix">
+      <created>1685192181485</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1685192181485</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Contact page - adresgegevens aangevuld" />
     <MESSAGE value="Feedback sprint review 3 : Spelfout emailadres -&gt; e-mailadres" />
     <MESSAGE value="Feedback sprint review 3 : Heading toegevoegd bij Testimonials + Buttons gelijke grootte gegeven" />
     <MESSAGE value="Feedback sprint review 3 : Buttons omgewisseld" />
@@ -484,6 +482,7 @@
     <MESSAGE value="Spelfouten verbeterd." />
     <MESSAGE value="push" />
     <MESSAGE value="Card border" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card border" />
+    <MESSAGE value="Footer bottom fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer bottom fix" />
   </component>
 </project>

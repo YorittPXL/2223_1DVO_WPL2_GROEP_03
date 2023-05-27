@@ -378,6 +378,11 @@ button.navbar-toggler {
     padding: 10px 0;
 }
 
+.item_spacing{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
 .pro-uitleg {
     background-color: #2B2A37;
 }
@@ -430,6 +435,13 @@ button.navbar-toggler {
 
 .fa-ul {
     height: 140px;
+}
+
+@media (max-width: 767px) {
+    .item_spacing{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
 }
 
 /* --- CHECKOUT PAGE --- */
